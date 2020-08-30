@@ -1,0 +1,27 @@
+<campaign>
+	<team>
+		<name>Vaanara</name>
+		<faction>vaanara</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+		<resource>
+			<food>500</food>
+			<wood>500</wood>
+			<stone>500</stone>
+			<metal>0</metal>
+		</resource>
+	</team>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="explore all"/>
+		<line work="show" unit="rama" time="500"/>
+		<line work="subtitle" unit="rama" time="2000" speech="voice/cmpn-5-1-rama.ogg">Rama: How can we cross the ocean?</line>
+		<line work="subtitle" unit="nala" time="4000" speech="voice/cmpn-5-2-nala.ogg">Nala: I know a technique to make stone float on water.</line>
+		<line work="subtitle" unit="nala" time="3000" speech="voice/cmpn-5-3-rama.ogg">Rama: Then we have to gather enough stones to make a bridge.</line>
+		<line work="OBJ gather stone" val="10000">Gather 10000 Stone</line>
+		<line work="change team" unit="flag1" team="1"/>
+		<line work="show" unit="flag1" time="0"/>
+		<line work="OBJ move to" unit="rama" target="flag1">Make bridge to the flag to take Rama there.</line>
+		<line work="unlock" val="6"/>
+	</story>
+</campaign>

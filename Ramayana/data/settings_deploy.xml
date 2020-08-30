@@ -1,0 +1,39 @@
+<settings>
+	<graphics>
+		<fullscreen>true</fullscreen>
+		<screenWidth>1366</screenWidth>
+		<screenHeight>768</screenHeight>
+		<gameMode>true</gameMode>
+		<gameModeString>1366x768:32@60</gameModeString>
+		<reflectionOn>true</reflectionOn>
+		<shadowOn>true</shadowOn>
+		<antialiasingOn>true</antialiasingOn>
+		<terrainBumpmapOn>true</terrainBumpmapOn>
+		<objectBumpmapOn>true</objectBumpmapOn>
+		<motionBlurOn>false</motionBlurOn>
+		<depthOfFieldOn>true</depthOfFieldOn>
+		<bloomOn>true</bloomOn>
+		<renderObjectsOn>true</renderObjectsOn>
+		<renderTerrainOn>true</renderTerrainOn>
+		<renderWaterOn>true</renderWaterOn>
+		<renderSkyOn>false</renderSkyOn>
+		<stereoscopicOn>false</stereoscopicOn>
+		<stereoSeperation>0.45</stereoSeperation>
+		<wireframeOn>false</wireframeOn>
+		<noShader>false</noShader>
+		<videoHeight>720p</videoHeight>
+	</graphics>
+	<audio>
+		<volume>0.506579</volume>
+		<ambientVolume>0.375</ambientVolume>
+		<soundVolume>1</soundVolume>
+		<musicVolume>0.532895</musicVolume>
+	</audio>
+	<game>
+		<scrollSpeed>0.08</scrollSpeed>
+		<showLOS>false</showLOS>
+		<showPath>false</showPath>
+		<showRenderDetails>false</showRenderDetails>
+	</game>
+</settings>
+

@@ -1,0 +1,3 @@
+libGLEW
+freeglut
+opencv

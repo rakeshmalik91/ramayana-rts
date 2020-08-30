@@ -1,0 +1,66 @@
+<campaign>
+	<team>
+		<name>Vaanara</name>
+		<faction>vaanara</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+		<resource>
+			<food>500</food>
+			<wood>500</wood>
+			<stone>500</stone>
+			<metal>500</metal>
+		</resource>
+	</team>
+	<team>
+		<name>Dhumraksha</name>
+		<faction>rakshasa</faction>
+		<teamGroup>2</teamGroup>
+		<color>2</color>
+		<resource>
+			<food>500</food>
+			<wood>500</wood>
+			<stone>500</stone>
+			<metal>500</metal>
+		</resource>
+		<hasAI/>
+	</team>
+	<team>
+		<name>Bajradangstra</name>
+		<faction>rakshasa</faction>
+		<teamGroup>2</teamGroup>
+		<color>6</color>
+		<resource>
+			<food>500</food>
+			<wood>500</wood>
+			<stone>500</stone>
+			<metal>500</metal>
+		</resource>
+		<hasAI/>
+	</team>
+	<team>
+		<name>Prahasta</name>
+		<faction>rakshasa</faction>
+		<teamGroup>2</teamGroup>
+		<color>7</color>
+		<resource>
+			<food>500</food>
+			<wood>500</wood>
+			<stone>500</stone>
+			<metal>500</metal>
+		</resource>
+		<hasAI/>
+	</team>
+	<diplomacy team1="1" team2="2">enemy</diplomacy>
+	<diplomacy team1="1" team2="3">enemy</diplomacy>
+	<diplomacy team1="1" team2="4">enemy</diplomacy>
+	<diplomacy team1="2" team2="3">ally</diplomacy>
+	<diplomacy team1="2" team2="4">ally</diplomacy>
+	<diplomacy team1="3" team2="4">ally</diplomacy>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="CONST survive" unit="rama"/>
+		<line work="CONST survive" unit="lakshmana">Rama, Lakshmana must survive.</line>
+		<line work="OBJ defeat all">Defeat Dhumraksha, Bajrandanstra and Prahasta</line>
+		<line work="unlock" val="9"/>
+	</story>
+</campaign>

@@ -1,0 +1,239 @@
+<campaign>
+	<scenario>
+		<buttonColor>
+			<r>0.13</r>
+			<g>0.69</g>
+			<b>0.3</b>
+		</buttonColor>
+		<name>Aranya Kanda:
+Kush Van</name>
+		<path>campaign/01.kushvan.cmpn</path>
+		<intro>cmpn01_intro.avi</intro>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.63</r>
+			<g>0.29</g>
+			<b>0.64</b>
+		</buttonColor>
+		<name>Kishkindhya
+Kanda:
+Vali Vadh</name>
+		<path>campaign/02.kishkindhya.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0</r>
+			<g>0.64</g>
+			<b>0.9</b>
+		</buttonColor>
+		<name>Sundara Kanda:
+The
+Ocean Leap</name>
+		<path>campaign/03.mount_mainak.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.7</r>
+			<g>0.9</g>
+			<b>0.11</b>
+		</buttonColor>
+		<name>Sundara Kanda:
+Ashoka Vatika</name>
+		<path>campaign/04.ashok_vatika.cmpn</path>
+		<outro>cmpn04_outro.avi</outro>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.6</r>
+			<g>0.85</g>
+			<b>0.92</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Setuvandhan</name>
+		<path>campaign/05.dhanskodi.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0</r>
+			<g>0</g>
+			<b>0.62</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+The
+First Battle</name>
+		<path>campaign/06.lanka.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.5</r>
+			<g>0</g>
+			<b>0.5</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Meghnaad&apos;s
+Nagapasa</name>
+		<path>campaign/07.lanka.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.39</r>
+			<g>0.39</g>
+			<b>0.6</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Dhrumraksha
+Bajradangstra
+and Prahasta</name>
+		<path>campaign/08.lanka.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>1</r>
+			<g>0.1</g>
+			<b>0.1</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Ravana&apos;s
+First Battle</name>
+		<path>campaign/09.lanka.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.73</r>
+			<g>0.48</g>
+			<b>0.34</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Kumbhakarna
+Vadh</name>
+		<path>campaign/10.lanka.cmpn</path>
+		<intro>cmpn10_intro.avi</intro>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.5</r>
+			<g>0.5</g>
+			<b>0</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Atikaay</name>
+		<path>campaign/11.lanka.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0</r>
+			<g>0.83</g>
+			<b>0.83</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Meghnaad</name>
+		<path>campaign/12.lanka.cmpn</path>
+    <intro>cmpn12_intro.avi</intro>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.53</r>
+			<g>0</g>
+			<b>0.08</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Kumbha
+Nikumbha</name>
+		<path>campaign/13.lanka.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0</r>
+			<g>0.5</g>
+			<b>0</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Maharaksha</name>
+		<path>campaign/14.lanka.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.25</r>
+			<g>0.5</g>
+			<b>0.5</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Taranisen</name>
+		<path>campaign/15.lanka.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.92</r>
+			<g>0.1</g>
+			<b>0.14</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Ravana&apos;s
+Shaktishel</name>
+		<path>campaign/16.lanka.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>1</r>
+			<g>0.78</g>
+			<b>0.05</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Vishalyakarani</name>
+		<path>campaign/17.dronagiri.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.23</r>
+			<g>0.27</g>
+			<b>0.54</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Pataalpuri</name>
+		<path>campaign/18.pataal.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>1</r>
+			<g>0</g>
+			<b>0.5</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Ravana&apos;s
+Third Battle</name>
+		<path>campaign/19.lanka.cmpn</path>
+		<unlocked/>
+	</scenario>
+	<scenario>
+		<buttonColor>
+			<r>0.25</r>
+			<g>0.25</g>
+			<b>0.25</b>
+		</buttonColor>
+		<name>Lanka Kanda:
+Ravana Vadh</name>
+		<path>campaign/20.lanka.cmpn</path>
+    <intro>cmpn20_intro.avi</intro>
+		<unlocked/>
+	</scenario>
+</campaign>
+

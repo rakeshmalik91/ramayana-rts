@@ -1,0 +1,50 @@
+<campaign>
+	<team>
+		<name>Rama</name>
+		<faction>human</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+	</team>
+	<team>
+		<name>Sugriva</name>
+		<faction>vaanara</faction>
+		<teamGroup>1</teamGroup>
+		<color>3</color>
+	</team>
+	<team>
+		<name>Vali</name>
+		<faction>vaanara</faction>
+		<teamGroup>2</teamGroup>
+		<color>3</color>
+	</team>
+	<team>
+		<name>Kiskindhya</name>
+		<faction>vaanara</faction>
+		<teamGroup>3</teamGroup>
+		<color>3</color>
+	</team>
+	<diplomacy team1="1" team2="4">enemy</diplomacy>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="reveal all"/>
+		<line work="CONST survive" unit="sugriva">Sugriva must survive.</line>
+		<line work="CONST upspotted" unit="rama" team="4">Rama must remain unspotted by vaanaras.</line>
+		<line work="CONST dont attack" team="3">Don't attack Vali untill battle starts.</line>
+		
+		<line work="zoom" val="5"/>
+		<line work="show" unit="rama" time="1000"/>
+		<line work="show" unit="sugriva" time="1000"/>
+		<line work="show" unit="vali" time="1000" speech="tutorial/2.1.ogg"/>
+		<line work="show" unit="flag1" time="1000"/>
+		<line work="show" unit="rama" time="0"/>
+		<line work="OBJ move to" unit="rama" target="flag1">Take suitable position near the flag to assasinate Vali.</line>
+		<line work="wait" time="100"/>
+		<line work="CONST dont attack END" team="3"/>
+		
+		<line work="attack" unit="sugriva" target="vali"/>
+		<line work="attack" unit="vali" target="sugriva"/>
+		<line work="OBJ kill" target="vali">Help Sugriva defeat Vali.</line>
+		<line work="unlock" val="3"/>
+		<line work="show" unit="vali" time="1000"/>
+	</story>
+</campaign>

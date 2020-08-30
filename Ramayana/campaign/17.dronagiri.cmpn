@@ -1,0 +1,51 @@
+<campaign>
+	<team>
+		<name>Vaanara</name>
+		<faction>vaanara</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+	</team>
+	<team>
+		<name>Rakshasa</name>
+		<faction>rakshasa</faction>
+		<teamGroup>2</teamGroup>
+		<color>2</color>
+	</team>
+	<diplomacy team1="1" team2="2">enemy</diplomacy>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="CONST survive" unit="hanuman" speech="voice/cmpn-17.4.ogg">Hanuman must survive.</line>
+		
+		<line work="wait" time="10000">Find Vishalyakarani herb for Lakshmana.</line>
+		<line work="show" unit="hanuman" time="1000"/>
+		<line work="show" unit="flag1" time="1000"/>
+		<line work="show" unit="hanuman" time="0"/>
+		<line work="OBJ move to" unit="hanuman" target="kalanemi">Take Hanuman to the nearby monk.</line>
+		<line work="subtitle" unit="hanuman" time="2000" speech="voice/cmpn-17.1.ogg">Hanuman: Where can I find Vishalyakarani?</line>
+		<line work="subtitle" unit="kalanemi" time="3000" speech="voice/cmpn-17.2.ogg">Monk: Vishalyakarani! huh! May be near the pond.</line>
+		
+		<line work="change team" unit="flag2" team="1"/>
+		<line work="show" unit="flag2" time="1000"/>
+		<line work="show" unit="hanuman" time="0"/>
+		<line work="OBJ move to" unit="hanuman" target="flag2">Reach the flag.</line>
+		<line work="remove" unit="flag2"/>
+		<line work="remove" unit="flag1"/>
+		<line work="OBJ kill" target="alligator">Defeat the Alligator.</line>
+		<line work="change team" unit="alligator" team="0"/>
+		<line work="move" unit="hanuman" target="alligator"/>
+		<line work="move" unit="alligator" target="hanuman"/>
+		<line work="subtitle" unit="alligator" time="2000" speech="voice/cmpn-17.3.ogg">Angel: The monk that sent you here is Kalanemi, Raavana's uncle.</line>
+		<line work="show" unit="alligator" time="5000"/>
+		<line work="move" unit="alligator" target="kalanemi"/>
+		
+		<line work="change team" unit="kalanemi" team="2"/>
+		<line work="transform" unit="kalanemi" val="0"/>
+		<line work="show" unit="hanuman" time="0"/>
+		<line work="OBJ defeat" team="2">Defeat Kalanemi.</line>
+		<line work="unlock" val="18"/>
+		
+		<line work="wait" time="300000">Find Vishalyakarani</line>
+		<line work="subtitle" unit="hanuman" time="5000" speech="voice/cmpn-17.4.ogg">Hanuman: There is no time to find it now. 
+I have to take the whole mountain.</line>
+	</story>
+</campaign>

@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo Release|Win32">
+      <Configuration>Demo Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Demo Release|x64">
+      <Configuration>Demo Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7E754F64-5AA2-4D13-AEEB-A315DB221383}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Ramayana</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Demo Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>lib\opencv-2.4.9\include\opencv;lib\freeglut\include;lib\opencv-2.4.9\include;lib\SDL-1.2.15\include\SDL;lib\SDL-1.2.15\include;lib\SDL_mixer-1.2.12\include\SDL;lib\SDL_mixer-1.2.12\include;lib\glew-1.9.0\include;lib\rapidxml-1.13\include;lib\dirent-1.20.1\include;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\$(ProjectName)\</OutDir>
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName).Win32.debug</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(ProjectName)\win64\</OutDir>
+    <IncludePath>lib\openvr-master\headers;lib\steamwork-sdk\public;lib\SDL2_net-2.0.0\include;lib\opencv-2.4.9\include;lib\opencv-2.4.9\include\opencv;lib\freeglut\include;lib\SDL-1.2.15\include\SDL;lib\SDL-1.2.15\include;lib\SDL_mixer-1.2.12\include\SDL;lib\SDL_mixer-1.2.12\include;lib\glew-1.9.0\include;lib\rapidxml-1.13\include;lib\dirent-1.20.1\include;$(IncludePath)</IncludePath>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <TargetName>$(ProjectName).debug</TargetName>
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(ProjectName)\win32\</OutDir>
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <IncludePath>lib\openvr-master\headers;lib\steamwork-sdk\public;lib\SDL2_net-2.0.0\include;lib\opencv-2.4.9\include;lib\opencv-2.4.9\include\opencv;lib\freeglut\include;lib\SDL-1.2.15\include\SDL;lib\SDL-1.2.15\include;lib\SDL_mixer-1.2.12\include\SDL;lib\SDL_mixer-1.2.12\include;lib\glew-1.9.0\include;lib\rapidxml-1.13\include;lib\dirent-1.20.1\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\$(ProjectName)\win32\</OutDir>
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName).Demo</TargetName>
+    <IncludePath>lib\openvr-master\headers;lib\steamwork-sdk\public;lib\SDL2_net-2.0.0\include;lib\opencv-2.4.9\include;lib\opencv-2.4.9\include\opencv;lib\freeglut\include;lib\SDL-1.2.15\include\SDL;lib\SDL-1.2.15\include;lib\SDL_mixer-1.2.12\include\SDL;lib\SDL_mixer-1.2.12\include;lib\glew-1.9.0\include;lib\rapidxml-1.13\include;lib\dirent-1.20.1\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>lib\openvr-master\headers;lib\steamwork-sdk\public;lib\SDL2_net-2.0.0\include;lib\opencv-2.4.9\include;lib\opencv-2.4.9\include\opencv;lib\freeglut\include;lib\SDL-1.2.15\include\SDL;lib\SDL-1.2.15\include;lib\SDL_mixer-1.2.12\include\SDL;lib\SDL_mixer-1.2.12\include;lib\glew-1.9.0\include;lib\rapidxml-1.13\include;lib\dirent-1.20.1\include;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\$(ProjectName)\win64\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Demo Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>lib\openvr-master\headers;lib\steamwork-sdk\public;lib\SDL2_net-2.0.0\include;lib\opencv-2.4.9\include;lib\opencv-2.4.9\include\opencv;lib\freeglut\include;lib\SDL-1.2.15\include\SDL;lib\SDL-1.2.15\include;lib\SDL_mixer-1.2.12\include\SDL;lib\SDL_mixer-1.2.12\include;lib\glew-1.9.0\include;lib\rapidxml-1.13\include;lib\dirent-1.20.1\include;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\$(ProjectName)\win64\</OutDir>
+    <TargetName>$(ProjectName).Demo</TargetName>
+    <IntDir>build\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glew32.lib;SDL.lib;SDLmain.lib;SDL_mixer.lib;opencv_calib3d249d.lib;opencv_contrib249d.lib;opencv_core249d.lib;opencv_features2d249d.lib;opencv_flann249d.lib;opencv_gpu249d.lib;opencv_highgui249d.lib;opencv_imgproc249d.lib;opencv_legacy249d.lib;opencv_ml249d.lib;opencv_nonfree249d.lib;opencv_objdetect249d.lib;opencv_ocl249d.lib;opencv_photo249d.lib;opencv_stitching249d.lib;opencv_superres249d.lib;opencv_ts249d.lib;opencv_video249d.lib;opencv_videostab249d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>lib\freeglut\lib\x86;lib\opencv-2.4.9\x86\vc12\lib;lib\SDL_mixer-1.2.12\lib\x86;lib\SDL-1.2.15\lib\x86;lib\glew-1.9.0\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <WarningLevel>Level1</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files\opencv\build\include;C:\Program Files\opencv\build\include\opencv;C:\Program Files\opencv\build\include\opencv2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>
+      </OpenMPSupport>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>lib\openvr-master\lib\win64;lib\steamwork-sdk\redistributable_bin\win64;lib\SDL2_net-2.0.0\lib\x64;lib\freeglut\lib\x64;lib\opencv-2.4.9\x64\vc12\lib;lib\SDL_mixer-1.2.12\lib\x64;lib\SDL-1.2.15\lib\x64;lib\glew-1.9.0\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>openvr_api.lib;steam_api64.lib;SDL2_net.lib;glew32.lib;freeglut.lib;opengl32.lib;glu32.lib;SDL.lib;SDLmain.lib;SDL_mixer.lib;opencv_calib3d249.lib;opencv_contrib249.lib;opencv_core249.lib;opencv_features2d249.lib;opencv_flann249.lib;opencv_gpu249.lib;opencv_highgui249.lib;opencv_imgproc249.lib;opencv_legacy249.lib;opencv_ml249.lib;opencv_nonfree249.lib;opencv_objdetect249.lib;opencv_ocl249.lib;opencv_photo249.lib;opencv_stitching249.lib;opencv_superres249.lib;opencv_ts249.lib;opencv_video249.lib;opencv_videostab249.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Windows Kits\8.0\Include\um\sdl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>lib\steamwork-sdk\redistributable_bin;lib\openvr-master\lib\win32;lib\freeglut\lib\x86;lib\opencv-2.4.9\x86\vc12\lib;lib\SDL_mixer-1.2.12\lib\x86;lib\SDL-1.2.15\lib\x86;lib\glew-1.9.0\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>openvr_api.lib;steam_api.lib;glew32.lib;SDL.lib;SDLmain.lib;SDL_mixer.lib;opencv_calib3d249.lib;opencv_contrib249.lib;opencv_core249.lib;opencv_features2d249.lib;opencv_flann249.lib;opencv_gpu249.lib;opencv_highgui249.lib;opencv_imgproc249.lib;opencv_legacy249.lib;opencv_ml249.lib;opencv_nonfree249.lib;opencv_objdetect249.lib;opencv_ocl249.lib;opencv_photo249.lib;opencv_stitching249.lib;opencv_superres249.lib;opencv_ts249.lib;opencv_video249.lib;opencv_videostab249.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_DEMO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>lib\steamwork-sdk\redistributable_bin;lib\openvr-master\lib\win32;lib\freeglut\lib\x86;lib\opencv-2.4.9\x86\vc12\lib;lib\SDL_mixer-1.2.12\lib\x86;lib\SDL-1.2.15\lib\x86;lib\glew-1.9.0\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>openvr_api.lib;steam_api.lib;glew32.lib;SDL.lib;SDLmain.lib;SDL_mixer.lib;opencv_calib3d249.lib;opencv_contrib249.lib;opencv_core249.lib;opencv_features2d249.lib;opencv_flann249.lib;opencv_gpu249.lib;opencv_highgui249.lib;opencv_imgproc249.lib;opencv_legacy249.lib;opencv_ml249.lib;opencv_nonfree249.lib;opencv_objdetect249.lib;opencv_ocl249.lib;opencv_photo249.lib;opencv_stitching249.lib;opencv_superres249.lib;opencv_ts249.lib;opencv_video249.lib;opencv_videostab249.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Windows Kits\8.0\Include\um\sdl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>lib\openvr-master\lib\win64;lib\steamwork-sdk\redistributable_bin\win64;lib\SDL2_net-2.0.0\lib\x64;lib\freeglut\lib\x64;lib\opencv-2.4.9\x64\vc12\lib;lib\SDL_mixer-1.2.12\lib\x64;lib\SDL-1.2.15\lib\x64;lib\glew-1.9.0\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>openvr_api.lib;steam_api64.lib;SDL2_net.lib;glew32.lib;freeglut.lib;opengl32.lib;glu32.lib;SDL.lib;SDLmain.lib;SDL_mixer.lib;opencv_calib3d249.lib;opencv_contrib249.lib;opencv_core249.lib;opencv_features2d249.lib;opencv_flann249.lib;opencv_gpu249.lib;opencv_highgui249.lib;opencv_imgproc249.lib;opencv_legacy249.lib;opencv_ml249.lib;opencv_nonfree249.lib;opencv_objdetect249.lib;opencv_ocl249.lib;opencv_photo249.lib;opencv_stitching249.lib;opencv_superres249.lib;opencv_ts249.lib;opencv_video249.lib;opencv_videostab249.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Demo Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level1</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_DEMO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files %28x86%29\Windows Kits\8.0\Include\um\sdl;C:\Program Files\opencv\build\include\opencv2;C:\Program Files\opencv\build\include\opencv;C:\Program Files\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>lib\openvr-master\lib\win64;lib\steamwork-sdk\redistributable_bin\win64;lib\SDL2_net-2.0.0\lib\x64;lib\freeglut\lib\x64;lib\opencv-2.4.9\x64\vc12\lib;lib\SDL_mixer-1.2.12\lib\x64;lib\SDL-1.2.15\lib\x64;lib\glew-1.9.0\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>openvr_api.lib;steam_api64.lib;SDL2_net.lib;glew32.lib;freeglut.lib;opengl32.lib;glu32.lib;SDL.lib;SDLmain.lib;SDL_mixer.lib;opencv_calib3d249.lib;opencv_contrib249.lib;opencv_core249.lib;opencv_features2d249.lib;opencv_flann249.lib;opencv_gpu249.lib;opencv_highgui249.lib;opencv_imgproc249.lib;opencv_legacy249.lib;opencv_ml249.lib;opencv_nonfree249.lib;opencv_objdetect249.lib;opencv_ocl249.lib;opencv_photo249.lib;opencv_stitching249.lib;opencv_superres249.lib;opencv_ts249.lib;opencv_video249.lib;opencv_videostab249.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ai.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="gltools\collada.cpp" />
+    <ClCompile Include="gltools\exception.cpp" />
+    <ClCompile Include="gltools\io.cpp" />
+    <ClCompile Include="gltools\framebuffer.cpp" />
+    <ClCompile Include="gltools\frustum.cpp" />
+    <ClCompile Include="gltools\gleffects.cpp" />
+    <ClCompile Include="gltools\glpremitive.cpp" />
+    <ClCompile Include="gltools\glprint.cpp" />
+    <ClCompile Include="gltools\glsupported.cpp" />
+    <ClCompile Include="gltools\gltransform.cpp" />
+    <ClCompile Include="gltools\graphics.cpp" />
+    <ClCompile Include="gltools\line.cpp" />
+    <ClCompile Include="gltools\lock.cpp" />
+    <ClCompile Include="gltools\math.cpp" />
+    <ClCompile Include="gltools\particle.cpp" />
+    <ClCompile Include="gltools\pathfinding.cpp" />
+    <ClCompile Include="gltools\point.cpp" />
+    <ClCompile Include="gltools\projectile.cpp" />
+    <ClCompile Include="gltools\random.cpp" />
+    <ClCompile Include="gltools\safearray.cpp" />
+    <ClCompile Include="gltools\shader.cpp" />
+    <ClCompile Include="gltools\string.cpp" />
+    <ClCompile Include="gltools\surface.cpp" />
+    <ClCompile Include="gltools\texture2d.cpp" />
+    <ClCompile Include="gltools\texture3d.cpp" />
+    <ClCompile Include="gltools\texturesprite2d.cpp" />
+    <ClCompile Include="gltools\vector.cpp" />
+    <ClCompile Include="gltools\wavefront.cpp" />
+    <ClCompile Include="logger.cpp" />
+    <ClCompile Include="sky.cpp" />
+    <ClCompile Include="steamStatsAndAchievements.cpp" />
+    <ClCompile Include="water.cpp" />
+    <ClCompile Include="world.cpp" />
+    <ClInclude Include="ai.h" />
+    <ClCompile Include="audio.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="audio.h" />
+    <ClCompile Include="enums.cpp" />
+    <ClCompile Include="game.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="campaign.h" />
+    <ClInclude Include="enums.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="gltools\algorithm.h" />
+    <ClInclude Include="gltools\array.h" />
+    <ClInclude Include="gltools\exception.h" />
+    <ClInclude Include="gltools\framebuffer.h" />
+    <ClInclude Include="gltools\gleffects.h" />
+    <ClInclude Include="gltools\glkey.h" />
+    <ClInclude Include="gltools\glpremitive.h" />
+    <ClInclude Include="gltools\glprint.h" />
+    <ClInclude Include="gltools\glsupported.h" />
+    <ClInclude Include="gltools\gltransform.h" />
+    <ClInclude Include="gltools\graphics.h" />
+    <ClInclude Include="gltools\math.h" />
+    <ClInclude Include="gltools\object.h" />
+    <ClInclude Include="gltools\particle.h" />
+    <ClInclude Include="gltools\random.h" />
+    <ClInclude Include="gltools\io.h" />
+    <ClInclude Include="gltools\shader.h" />
+    <ClInclude Include="gltools\stdafx.h" />
+    <ClInclude Include="gltools\string.h" />
+    <ClInclude Include="gltools\surface.h" />
+    <ClInclude Include="gltools\texture.h" />
+    <ClInclude Include="gltools\thread.h" />
+    <ClInclude Include="interface.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="skirmish.h" />
+    <ClInclude Include="sky.h" />
+    <ClInclude Include="steamStatsAndAchievements.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="team.h" />
+    <ClInclude Include="terrain.h" />
+    <ClCompile Include="game_query.cpp" />
+    <ClCompile Include="interface.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="common.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClCompile Include="multiplayer.cpp" />
+    <ClCompile Include="team.cpp" />
+    <ClCompile Include="unit.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClInclude Include="unit.h" />
+    <ClInclude Include="water.h" />
+    <ClInclude Include="world.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="campaign.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="game_audio.cpp" />
+    <ClCompile Include="game_command.cpp" />
+    <ClCompile Include="game_specialeffects.cpp" />
+    <ClCompile Include="game_render.cpp" />
+    <ClCompile Include="game_unitselection.cpp" />
+    <ClCompile Include="knowledgebase.cpp" />
+    <ClCompile Include="projectileweapon.cpp" />
+    <ClCompile Include="ramayana.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="skirmish.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Demo Release|x64'">Create</PrecompiledHeader>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="unittype.cpp" />
+    <ClCompile Include="unit_query.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Ramayana.ico" />
+    <Image Include="Ramayana_small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="create-demo-deb.sh" />
+    <None Include="create-demo-rpm.sh" />
+    <None Include="create-demo-tar.sh" />
+    <None Include="installer.nsi" />
+    <None Include="installer_demo.nsi" />
+    <None Include="installer_test.nsi" />
+    <None Include="shaders\add.glsl">
+      <FileType>Document</FileType>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</DeploymentContent>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Demo Release|x64'">true</DeploymentContent>
+    </None>
+    <None Include="shaders\alphamask.glsl" />
+    <None Include="shaders\bloom.glsl" />
+    <None Include="shaders\blur.glsl" />
+    <None Include="shaders\brightpass.glsl" />
+    <None Include="shaders\color.glsl" />
+    <None Include="shaders\dof.glsl" />
+    <None Include="shaders\fxaa.glsl" />
+    <None Include="shaders\object.glsl" />
+    <None Include="shaders\terrain.glsl" />
+    <None Include="shaders\water.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ramayana.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Steam_appid.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="data\campaign.xml" />
+    <Xml Include="data\campaign_deploy.xml" />
+    <Xml Include="data\settings.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="data\settings_deploy.xml" />
+    <Xml Include="data\unit.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+    <Xml Include="data\unit_deploy_demo.xml" />
+    <Xml Include="kb\rakshasa.xml" />
+    <Xml Include="kb\vaanara.xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

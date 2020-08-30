@@ -1,0 +1,38 @@
+<campaign>
+	<team>
+		<name>Vaanara</name>
+		<faction>vaanara</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+	</team>
+	<team>
+		<name>Mahiravana</name>
+		<faction>rakshasa</faction>
+		<teamGroup>2</teamGroup>
+		<color>6</color>
+	</team>
+	<team>
+		<name>Prisoner</name>
+		<faction>human</faction>
+		<teamGroup>1</teamGroup>
+		<color>0</color>
+	</team>
+	<diplomacy team1="1" team2="2">enemy</diplomacy>
+	<diplomacy team1="1" team2="3">ally</diplomacy>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="explore all"/>
+		<line work="CONST survive" unit="bivishan">Bivishan must survive.</line>
+		<line work="CONST survive" unit="hanuman">Hanuman must survive.</line>
+		<line work="OBJ damage" target="makardhwaja" val="30">Defeat Guards</line>
+		<line work="subtitle" unit="hanuman" time="1000" speech="voice/cmpn-18.1.ogg">Hanuman: Who are you?</line>
+		<line work="subtitle" unit="makardhwaja" time="1000" speech="voice/cmpn-18.2.ogg">Makardhwaja: I am your son.</line>
+		<line work="subtitle" unit="hanuman" time="500" speech="voice/cmpn-18.3.ogg">Hanuman: But, How?</line>
+		<line work="subtitle" unit="makardhwaja" time="3000" speech="voice/cmpn-18.4.ogg">Makardhwaja: When you were crossing the ocean you gave me birth in a sea creature's womb.</line>
+		<line work="OBJ kill" target="makardhwaja">Defeat Makardhwaja</line>
+		<line work="OBJ kill" target="mahiravana">Defeat Mahiravana</line>
+		<line work="OBJ kill" target="ahiravana">Defeat Ahiravana</line>
+		<line work="OBJ move to" unit="hanuman" target="rama">Save Rama and Lakshmana.</line>
+		<line work="unlock" val="19"/>
+	</story>
+</campaign>

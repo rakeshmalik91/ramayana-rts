@@ -1,0 +1,110 @@
+<campaign>
+	<team>
+		<name>Rama</name>
+		<faction>human</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+	</team>
+	<team>
+		<name>Jatayu</name>
+		<faction>nature</faction>
+		<teamGroup>2</teamGroup>
+		<color>7</color>
+	</team>
+	<team>
+		<name>Kabandha</name>
+		<faction>nature</faction>
+		<teamGroup>3</teamGroup>
+		<color>8</color>
+	</team>
+	<team>
+		<name>Villager</name>
+		<faction>nature</faction>
+		<teamGroup>3</teamGroup>
+		<color>8</color>
+	</team>
+	<team>
+		<name>Rakshasa Guards</name>
+		<faction>nature</faction>
+		<teamGroup>3</teamGroup>
+		<color>3</color>
+	</team>
+	<diplomacy team1="1" team2="3">enemy</diplomacy>
+	<diplomacy team1="3" team2="4">enemy</diplomacy>
+	<diplomacy team1="1" team2="5">enemy</diplomacy>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="CONST survive" unit="rama">Rama must survive.</line>
+		<line work="CONST survive" unit="lakshmana">Lakshmana must survive.</line>
+		<line work="zoom" val="5" speech="tutorial/1-1.ogg"/>
+		<line work="show" unit="rama" time="1000"/>
+		<line work="wait" time="5000"/>
+		
+		<line work="change team" unit="flag1" team="1"/>
+		<line work="show" unit="flag1" time="1000"/>
+		<line work="OBJ move to" unit="rama" target="flag1">Go to the flagged area.</line>
+		<line work="show" unit="flag1" time="10"/>
+		<line work="remove" unit="flag1"/>
+		<line work="zoom" val="3"/>
+		<line work="subtitle" unit="ornaments" speech="voice/cmpn-1-1-rama.ogg">Rama: Look! it must be Sita's!</line>
+		<line work="subtitle" unit="lakshmana" speech="voice/cmpn-1-2-lakshmana.ogg">Lakshmana: May be Rakshasas has taken her this way.</line>
+		<line work="zoom" val="5"/>
+		
+		<line work="change team" unit="flag2" team="1" speech="tutorial/1-2.ogg"/>
+		<line work="set diplomacy" team="1" team2="2">ally</line>
+		<line work="show" unit="flag2" time="2000"/>
+		<line work="show" unit="rama" time="0"/>
+		<line work="OBJ move to" unit="rama" target="jatayu">Meet Jatayu.</line>
+		<line work="move" unit="rama" target="jatayu"/>
+		<line work="show" unit="rama" time="0"/>
+		<line work="remove" unit="flag2"/>
+		<line work="rotate" val="60"/>
+		<line work="zoom" val="3"/>
+		<line work="move" unit="rama" target="jatayu"/>
+		<line work="move" unit="lakshmana" target="jatayu"/>
+		<line work="subtitle" unit="rama" speech="voice/cmpn-1-3-rama.ogg">Rama: Oh! God. The demon left its trail.</line>
+		<line work="subtitle" unit="jatayu" speech="voice/cmpn-1-4-jatayu.ogg">Jatayu: I am Jatayu. The god of sun Aruna is my father. The mount of Lord Vishnu, Garuda is my uncle.
+I have seen mother Sita. She was taken by Raavana, the King of Lanka. I tried to stop him... 
+but Raavana defeated me. I.. I am Sorry.. I couldn't stop hi....m</line>
+		<line work="subtitle" unit="rama" time="10000" speech="voice/cmpn-1-5-rama.ogg">Rama: Jatayu you are brave. My friend...Now you take rest in peace. 
+Your Bravery will inspire mankind. </line>
+		<line work="kill" unit="jatayu"/>
+		<line work="subtitle" unit="jatayu" time="1000" speech="voice/cmpn-1-6-jatayu.ogg">Jatayu: Ughh Ughh Ugghhh....</line>
+		<line work="rotate" val="0"/>
+		<line work="zoom" val="5"/>
+		
+		<line work="change team" unit="flag3" team="1"/>
+		<line work="OBJ move to" unit="rama" target="flag3" speech="tutorial/1-3.ogg">Move to next flagged area.</line>
+		<line work="remove" unit="flag3"/>
+		
+		<line work="OBJ kill" target="rakshasa1">Kill the rakshasa.</line>
+		
+		<line work="change team" unit="flag4" team="1"/>
+		<line work="OBJ move to" unit="rama" target="flag4">Move to next flagged area.</line>
+		<line work="remove" unit="flag4"/>
+		
+		<line work="OBJ defeat" team="5" speech="tutorial/1-4.ogg">Defeat all nearby rakshasa guards.</line>
+		
+		<line work="change team" unit="flag5" team="1"/>
+		<line work="OBJ move to" unit="rama" target="flag5" speech="tutorial/1-5.ogg">Move to next flagged area.</line>
+		<line work="remove" unit="flag5"/>
+		
+		<line work="change team" unit="kabandha" team="3"/>
+		<line work="reveal all"/>
+		<line work="show" unit="kabandha" time="10"/>
+		<line work="attack" unit="kabandha" target="rama"/>
+		<line work="OBJ kill" target="kabandha">Kill Kabandha Gandharba.</line>
+		<line work="set diplomacy" team="1" team2="3">ally</line>
+		<line work="move" unit="kabandha" target="rama"/>
+		<line work="stop" unit="rama"/>
+		<line work="stop" unit="lakshmana"/>
+		<line work="subtitle" unit="rama" speech="voice/cmpn-1-7-rama.ogg">Rama: Who are you? Why did you attack us?</line>
+		<line work="subtitle" unit="kabandha" speech="voice/cmpn-1-8-kabandha.ogg">Kabandha: I am Kabandha. I was cursed and made into an ugly carnivorous demon by Indra. 
+My curse could have been broken only by an avatar of Lord Vishnu. Now I am free. I know 
+about your unfortunate fate. Form an alliance with the chief of Vaanara. It would help 
+you in your journey to lanka.</line>
+		<line work="unlock" val="2" speech="tutorial/1-6.ogg"/>
+		<line work="show" unit="rama" time="2000"/>
+		<line work="zoom" val="10"/>
+	</story>
+</campaign>

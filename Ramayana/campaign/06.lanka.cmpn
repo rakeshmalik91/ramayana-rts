@@ -1,0 +1,29 @@
+<campaign>
+	<team>
+		<name>Vaanara</name>
+		<faction>vaanara</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+		<resource>
+			<food>500</food>
+			<wood>500</wood>
+			<stone>500</stone>
+			<metal>500</metal>
+		</resource>
+	</team>
+	<team>
+		<name>Rakshasa</name>
+		<faction>rakshasa</faction>
+		<teamGroup>2</teamGroup>
+		<color>2</color>
+		<hasAI/>
+	</team>
+	<diplomacy team1="1" team2="2">enemy</diplomacy>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="CONST survive" unit="rama"/>
+		<line work="CONST survive" unit="lakshmana">Rama, Lakshmana must survive.</line>
+		<line work="OBJ defeat" team="2">Defeat Rakshasa Senapatis</line>
+		<line work="unlock" val="7"/>
+	</story>
+</campaign>

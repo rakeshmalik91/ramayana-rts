@@ -1,0 +1,36 @@
+<campaign>
+	<team>
+		<name>Vaanara</name>
+		<faction>vaanara</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+		<resource>
+			<food>1000</food>
+			<wood>1000</wood>
+			<stone>1000</stone>
+			<metal>1000</metal>
+		</resource>
+	</team>
+	<team>
+		<name>Kumbhakarna</name>
+		<faction>rakshasa</faction>
+		<teamGroup>2</teamGroup>
+		<color>2</color>
+		<resource>
+			<food>1000</food>
+			<wood>1000</wood>
+			<stone>1000</stone>
+			<metal>1000</metal>
+		</resource>
+		<hasAI/>
+	</team>
+	<diplomacy team1="1" team2="2">enemy</diplomacy>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="CONST survive" unit="rama"/>
+		<line work="CONST survive" unit="lakshmana"/>
+		<line work="CONST survive" unit="sugriva">Rama, Lakshmana, Sugriva must survive.</line>
+		<line work="OBJ kill" target="kumbhakarna">Defeat Kumbhakarna</line>
+		<line work="unlock" val="11"/>
+	</story>
+</campaign>

@@ -1,0 +1,859 @@
+<unitList>
+	<unit id="5"  category="tree" name="Neem Tree">
+		<hitPoint> 500 </hitPoint>
+		
+		<unitPath> unit/neem/base.unit </unitPath>
+		
+		<obj state="general"> unit_src/neem </obj>
+		<icon> unit/neem/icon.png </icon>
+		<has> <wood> 6000 </wood> </has>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+	</unit>
+	<unit id="7"  category="tree" name="Tamarind Tree">
+		<hitPoint> 500 </hitPoint>
+		
+		<unitPath> unit/tamarind/base.unit </unitPath>
+		
+		<obj state="general"> unit_src/tamarind </obj>
+		<icon> unit/tamarind/icon.png </icon>
+		<has> <wood> 5000 </wood> </has>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+	</unit>
+	<unit id="8"  category="tree" name="Asvattha Tree">
+		<hitPoint> 800 </hitPoint>
+		
+		<unitPath> unit/asvattha/base.unit </unitPath>
+		
+		<obj state="general"> unit_src/asvattha </obj>
+		<icon> unit/asvattha/icon.png </icon>
+		<has> <wood> 8000 </wood> </has>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+	</unit>
+	<unit id="9"  category="tree" name="Mango Tree">
+		<hitPoint> 600 </hitPoint>
+		
+		<unitPath> unit/mango/base.unit </unitPath>
+		
+		<obj state="general"> unit_src/mango </obj>
+		<icon> unit/mango/icon.png </icon>
+		<has> <wood> 6000 </wood> </has>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+	</unit>
+	<unit id="10" category="tree" name="Date Tree">
+		<hitPoint> 200 </hitPoint>
+		
+		<unitPath> unit/date/base.unit </unitPath>
+		
+		<obj state="general"> unit_src/date </obj>
+		<icon> unit/date/icon.png </icon>
+		<has> <wood> 1000 </wood> </has>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+	</unit>
+	<unit id="12" category="tree" name="Traveler Tree">
+		<hitPoint> 100 </hitPoint>
+		
+		<unitPath> unit/traveler/base.unit </unitPath>
+		
+		<obj state="general"> unit_src/traveler </obj>
+		<icon> unit/traveler/icon.png </icon>
+		<has> <wood> 1000 </wood> </has>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+	</unit>
+	<unit id="16" category="tree" name="JackFruit Tree">
+		<hitPoint> 100 </hitPoint>
+		
+		<unitPath> unit/jackfruit/base.unit </unitPath>
+		
+		<obj state="general"> unit_src/jackfruit </obj>
+		<has> <wood> 3000 </wood> </has>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		<icon> unit/jackfruit/icon.png </icon>
+	</unit>
+	<unit id="17" category="tree" name="Flamboyant Tree">
+		<hitPoint> 300 </hitPoint>
+
+		<unitPath> unit/flamboyant/base.unit </unitPath>
+
+		<obj state="general"> unit_src/flamboyant </obj>
+		<has> <wood> 2000 </wood> </has>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		<icon> unit/flamboyant/icon.png </icon>
+	</unit>
+	<unit id="18" category="tree" name="Bamboo Tree">
+		<hitPoint> 20 </hitPoint>
+
+		<unitPath> unit/bamboo/base.unit </unitPath>
+
+		<obj state="general"> unit_src/bamboo </obj>
+		<icon> unit/bamboo/icon.png </icon>
+		<has> <wood> 200 </wood> </has>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+	</unit>
+	<unit id="20" category="tree" name="Tree">
+		<hitPoint> 300 </hitPoint>
+
+		<unitPath> unit/bald_tree/base.unit </unitPath>
+
+		<obj state="general"> unit_src/bald_tree </obj>
+		<icon> unit/bald_tree/icon.png </icon>
+		<has> <wood> 3000 </wood> </has>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+	</unit>
+	
+	<unit id="101" category="decoration" name="Grass">
+		<hitPoint> 10 </hitPoint>
+
+		<unitPath> unit/grass/base.unit </unitPath>
+
+		<obj state="general"> unit_src/grass </obj>
+		<icon> unit/grass/icon.png </icon>
+	</unit>
+	<unit id="105" category="decoration" name="Fern">
+		<hitPoint> 10 </hitPoint>
+
+		<unitPath> unit/fern2/base.unit </unitPath>
+
+		<obj state="general"> unit_src/fern2 </obj>
+		<icon> unit/fern/icon.png </icon>
+	</unit>
+	<unit id="107" category="decoration" name="Tulip">
+		<hitPoint> 10 </hitPoint>
+
+		<unitPath> unit/tulip/base.unit </unitPath>
+
+		<obj state="general"> unit_src/tulip </obj>
+		<icon> unit/tulip/icon.png </icon>
+	</unit>
+	<unit id="108" category="decoration" name="Ivy">
+		<hitPoint> 10 </hitPoint>
+
+		<unitPath> unit/ivy/base.unit </unitPath>
+
+		<obj state="general"> unit_src/ivy </obj>
+		<icon> unit/ivy/icon.png </icon>
+	</unit>
+	<unit id="109" category="decoration" name="Cycus">
+		<sibling> 110 </sibling>
+		
+		<hitPoint> 10 </hitPoint>
+
+		<unitPath> unit/cycus/base.unit </unitPath>
+
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		<obj state="general"> unit_src/cycus </obj>
+		<icon> unit/cycus/icon.png </icon>
+	</unit>
+	<unit id="110" category="decoration" name="Cycus" hideInEditor="true">
+		<sibling> 109 </sibling>
+		
+		<hitPoint> 10 </hitPoint>
+
+		<unitPath> unit/cycus2/base.unit </unitPath>
+
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		<obj state="general"> unit_src/cycus2 </obj>
+		<icon> unit/cycus/icon.png </icon>
+	</unit>
+	
+	<unit id="150" category="decoration" name="Flag">
+		<los> 3 </los>
+		<hitPoint> 10 </hitPoint>
+
+		<unitPath> unit/flag_long/base.unit </unitPath>
+
+		<obj state="general"> unit_src/flag_long </obj>
+		<icon> unit/flag_long/icon.png </icon>
+	</unit>
+	<unit id="151" category="decoration" name="Ornaments">
+		<hitPoint> 10 </hitPoint>
+
+		<unitPath> unit/sita_evidance/base.unit </unitPath>
+
+		<obj state="general"> unit_src/sita_evidance </obj>
+		<icon> unit/sita_evidance/icon.png </icon>
+	</unit>
+	
+	<unit id="200" category="stone" name="Grey Stone">
+		<hitPoint> 5000 </hitPoint>
+
+		<unitPath> unit/grey_stone0/base.unit </unitPath>
+
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		<obj state="general"> unit_src/grey_stone0 </obj>
+		<has> <stone> 5000 </stone> </has>
+		<icon> unit/grey_stone0/icon.png </icon>
+	</unit>
+	
+	<unit id="400" category="bird" name="Crow">
+		<hitPoint> 300 </hitPoint>
+
+		<unitPath> unit/crow/base.unit </unitPath>
+
+		<speed> 0.15 </speed>
+		<rotAngle> 5 </rotAngle>
+		<flyLevel> 3 </flyLevel>
+		<population> 1 </population>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<obj state="general"> unit_src/crow </obj>
+		
+		<icon> unit/crow/icon.png </icon>
+	</unit>
+	<unit id="402" category="beast" name="Deer">
+		<hitPoint> 300 </hitPoint>
+
+		<unitPath> unit/deer/base.unit </unitPath>
+
+		<population> 1 </population>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<obj state="general"> unit_src/deer </obj>
+		
+		<icon> unit/deer/icon.png </icon>
+	</unit>
+	<unit id="404" category="bird" name="Eagle">
+		<hitPoint> 500 </hitPoint>
+
+		<unitPath> unit/eagle/base.unit </unitPath>
+
+		<speed> 0.25 </speed>
+		<flyLevel> 4 </flyLevel>
+		<population> 1 </population>
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<obj state="general"> unit_src/eagle </obj>
+		
+		<icon> unit/eagle/icon.png </icon>
+	</unit>
+	
+	<unit id="551" category="infantry" name="Lanka Swordsman">
+		<hitPoint> 200 </hitPoint>
+
+		<unitPath> unit/lanka_swordsman/base.unit </unitPath>
+
+		<armour> 4.5 </armour>
+		<attack> 25 </attack>
+		<siegeAttack> 25 </siegeAttack>
+		<attackDelay> 10 </attackDelay>
+		<weaponType> sword </weaponType>
+		<range> 0.5 </range>
+		<accuracy> 0.8 </accuracy>
+		<speed> 0.075 </speed>
+		<rotAngle> 30 </rotAngle>
+		<los> 20 </los>
+		
+		<population> 1 </population>
+		<buildTime> 200 </buildTime>
+		<cost> <food> 30 </food> <metal> 10 </metal> </cost>
+		
+		<obj state="general"> unit_src/lanka_swordsman/general </obj>
+		<obj state="moving"> unit_src/lanka_swordsman/moving </obj>
+		<obj state="attack"> unit_src/lanka_swordsman/attack </obj>
+		<obj state="dead"> unit_src/lanka_swordsman/dead </obj>
+		
+		<audio state="attack"> audio/swordattack0.ogg </audio>
+		<audio state="attack"> audio/swordattack1.ogg </audio>
+		<audio state="attack"> audio/swordattack2.ogg </audio>
+		<audio state="attack"> audio/swordattack3.ogg </audio>
+		<audio state="attack"> audio/swordattack4.ogg </audio>
+		<audio state="attack"> audio/swordattack5.ogg </audio>
+		<audio state="attack"> audio/swordattack6.ogg </audio>
+		<audio state="attack"> audio/swordattack7.ogg </audio>
+		<audio state="attack"> audio/swordattack8.ogg </audio>
+		
+		<selectSound> audio/male.timid.yes.ogg </selectSound>
+		<selectSound> audio/male.timid.hmm.ogg </selectSound>
+		<selectSound> audio/male.timid.what.ogg </selectSound>
+		<commandSound> audio/male.timid.ok.ogg </commandSound>
+		<commandSound> audio/male.timid.allright.ogg </commandSound>
+		<commandSound> audio/male.timid.asyouwish.ogg </commandSound>
+		<commandSound> audio/male.timid.atyourservice.ogg </commandSound>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/lanka_swordsman/icon.png </icon>
+		<iconSmall> unit/lanka_swordsman/icon_small.png </iconSmall>
+	</unit>
+	<unit id="553" category="beast" name="Boar">
+		<hitPoint> 1000 </hitPoint>
+
+		<unitPath> unit/boar/base.unit </unitPath>
+
+		<armour> 2 </armour>
+		<attack> 100 </attack>
+		<siegeAttack> 700 </siegeAttack>
+		<areaDamageRadius> 1 </areaDamageRadius>
+		<attackDelay> 20 </attackDelay>
+		<weaponType> none </weaponType>
+		<range> 0.75 </range>
+		<accuracy> 0.75 </accuracy>
+		<camouflage> 1.5 </camouflage>
+		<speed> 0.075 </speed>
+		<rotAngle> 10 </rotAngle>
+		<los> 15 </los>
+		
+		<population> 1 </population>
+		<buildTime> 300 </buildTime>
+		<cost> <food> 100 </food> </cost>
+		
+		<obj state="general"> unit_src/boar/general </obj>
+		<obj state="moving"> unit_src/boar/moving </obj>
+		<obj state="attack"> unit_src/boar/attack </obj>
+		<obj state="dead"> unit_src/boar/dead </obj>
+		
+		<audio state="general"> audio/boar0.ogg </audio>
+		<audio state="general"> audio/boar1.ogg </audio>
+		<audio state="general"> audio/boar2.ogg </audio>
+		<audio state="general"> audio/nosound.ogg </audio>
+		<audio state="general"> audio/nosound.ogg </audio>
+		<audio state="moving"> audio/boar0.ogg </audio>
+		<audio state="moving"> audio/boar1.ogg </audio>
+		<audio state="moving"> audio/boar2.ogg </audio>
+		<audio state="attack"> audio/boar0.ogg </audio>
+		<audio state="attack"> audio/boar1.ogg </audio>
+		<audio state="attack"> audio/boar2.ogg </audio>
+		<audio state="dead"> audio/boar0.ogg </audio>
+		<audio state="dead"> audio/boar1.ogg </audio>
+		<audio state="dead"> audio/boar2.ogg </audio>
+		<audio state="dead"> audio/boardie0.ogg </audio>
+		
+		<selectSound> audio/boar0.ogg </selectSound>
+		<selectSound> audio/boar1.ogg </selectSound>
+		<selectSound> audio/boar2.ogg </selectSound>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/boar/icon.png </icon>
+		<iconSmall> unit/boar/icon_small.png </iconSmall>
+	</unit>
+	
+	<unit id="504" category="infantry" name="Rama" transformation="Base">
+		<hitPoint> 4000 </hitPoint>
+
+		<unitPath> unit/rama/base.unit </unitPath>
+
+		<armour> 5 </armour>
+		<attack> 200 </attack>
+		<siegeAttack> 50 </siegeAttack>
+		<attackDelay> 30 </attackDelay>
+		<weaponType> arrow </weaponType>
+		<range> 29 </range>
+		<accuracy> 1.0 </accuracy>
+		<areaDamageRadius> 1 </areaDamageRadius>
+		<speed> 0.125 </speed>
+		<rotAngle> 30 </rotAngle>
+		<los> 25 </los>
+		<isHeroic/>
+		<healDelay> 10 </healDelay> 
+		<healAmount> 1 </healAmount>
+		
+		<transformation name="Melee"> 
+			<unitType> 505 </unitType> 
+			<icon> ui/sword.png </icon>
+			<rechargeTime> 20 </rechargeTime>
+			<neededLevel> 1 </neededLevel>
+		</transformation>
+		<transformation name="Rapid Shot"> 
+			<unitType> 517 </unitType> 
+			<icon> ui/rapidshot.png </icon>
+			<rechargeTime> 2000 </rechargeTime>
+			<neededLevel> 7 </neededLevel>
+		</transformation>
+		<transformation name="Mount"> 
+			<unitType> 518 </unitType> 
+			<icon> ui/fly.png </icon>
+			<rechargeTime> 100 </rechargeTime>
+			<neededLevel> 10 </neededLevel>
+		</transformation>
+		
+		<specialPower name="Agnivaan"> 
+			<weaponType> fire_arrow </weaponType> 
+			<icon> ui/agnivaan.png </icon>
+			<state> special1 </state>
+			<targetType> any </targetType>
+			<attack> 100 </attack>
+			<siegeAttack> 10000 </siegeAttack>
+			<areaDamageRadius> 4 </areaDamageRadius>
+			<hitFrameNumber> 28 </hitFrameNumber>
+			<rechargeTime> 5000 </rechargeTime>
+			<neededLevel> 2 </neededLevel>
+		</specialPower>
+		<specialPower name="Aishik Vaan"> 
+			<weaponType> special_arrow_1 </weaponType> 
+			<icon> ui/aishikbaan.png </icon>
+			<state> attack </state>
+			<targetType> unit </targetType>
+			<attack> 200000 </attack>
+			<siegeAttack> 500 </siegeAttack>
+			<hitFrameNumber> 28 </hitFrameNumber>
+			<rechargeTime> 10000 </rechargeTime>
+			<neededLevel> 3 </neededLevel>
+		</specialPower>
+		<specialPower name="Brahmastra"> 
+			<weaponType> special_arrow_2 </weaponType> 
+			<icon> ui/brahmastra.png </icon>
+			<state> attack </state>
+			<targetType> unit </targetType>
+			<attack> 300000 </attack>
+			<hitFrameNumber> 28 </hitFrameNumber>
+			<rechargeTime> 15000 </rechargeTime>
+			<neededLevel> 3 </neededLevel>
+		</specialPower>
+		<specialPower name="Ardhachandra"> 
+			<weaponType> special_arrow_1 </weaponType> 
+			<icon> ui/ardhachandra.png </icon>
+			<state> attack </state>
+			<targetType> unit </targetType>
+			<attack> 50000 </attack>
+			<hitFrameNumber> 28 </hitFrameNumber>
+			<rechargeTime> 10000 </rechargeTime>
+			<neededLevel> 5 </neededLevel>
+		</specialPower>
+		
+		<population> 1 </population>
+		<buildTime> 1000 </buildTime>
+		<cost>  </cost>
+		
+		<obj state="general"> unit_src/rama/general </obj>
+		<obj state="moving"> unit_src/rama/moving </obj>
+		<obj state="attack"> unit_src/rama/attack </obj>
+		<obj state="dead"> unit_src/rama/dead </obj>
+		<obj state="special1"> <sameas unit="504" state="attack"/> </obj>
+		
+		<audio state="attack"> audio/arrow0.ogg </audio>
+		<audio state="attack"> audio/arrow1.ogg </audio>
+		<audio state="attack"> audio/arrow2.ogg </audio>
+		<audio state="attack"> audio/arrow3.ogg </audio>
+		<audio state="attack"> audio/arrow4.ogg </audio>
+		<audio state="attack"> audio/arrow5.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.0.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.1.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.2.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.3.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.4.ogg </audio>
+		<audio state="special1"> audio/fire_arrow0.ogg </audio>
+		<audio state="special1"> audio/fire_arrow1.ogg </audio>
+		
+		<selectSound> audio/rama/yes.ogg </selectSound>
+		<selectSound> audio/rama/what.ogg </selectSound>
+		<selectSound> audio/rama/whathappened.ogg </selectSound>
+		<selectSound> audio/rama/whatcanido.ogg </selectSound>
+		<commandSound> audio/rama/ok.ogg </commandSound>
+		<commandSound> audio/rama/allright.ogg </commandSound>
+		<commandSound> audio/rama/forsita.ogg </commandSound>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/rama/icon.png </icon>
+		<iconSmall> unit/rama/icon_small.png </iconSmall>
+	</unit>
+	<unit id="505" category="infantry" name="Rama" transformation="Sword" hideInEditor="true">
+		<hitPoint> 4000 </hitPoint>
+
+		<unitPath> unit/rama/sword.unit </unitPath>
+
+		<armour> 5 </armour>
+		<attack> 75 </attack>
+		<siegeAttack> 50 </siegeAttack>
+		<attackDelay> 10 </attackDelay>
+		<weaponType> sword </weaponType>
+		<range> 0.75 </range>
+		<accuracy> 0.5 </accuracy>
+		<areaDamageRadius> 1 </areaDamageRadius>
+		<speed> 0.125 </speed>
+		<rotAngle> 30 </rotAngle>
+		<los> 25 </los>
+		<isHeroic/>
+		<healDelay> 10 </healDelay> 
+		<healAmount> 1 </healAmount>
+		
+		<transformation name="Ranged"> 
+			<unitType> 504 </unitType> 
+			<icon> ui/bow_arrow.png </icon>
+			<rechargeTime> 20 </rechargeTime>
+			<neededLevel> 1 </neededLevel>
+		</transformation>
+		
+		<population> 1 </population>
+		<buildTime> 1000 </buildTime>
+		<cost>  </cost>
+		
+		<obj state="general"> unit_src/rama/sword_general </obj>
+		<obj state="moving"> unit_src/rama/sword_moving </obj>
+		<obj state="attack"> unit_src/rama/sword_attack </obj>
+		<obj state="dead"> unit_src/rama/sword_dead </obj>
+		<obj state="transform_in"> unit_src/rama/sword_in </obj>
+		<obj state="transform_out"> unit_src/rama/sword_out </obj>
+		
+		<audio state="attack"> audio/swordattack0.ogg </audio>
+		<audio state="attack"> audio/swordattack1.ogg </audio>
+		<audio state="attack"> audio/swordattack2.ogg </audio>
+		<audio state="attack"> audio/swordattack3.ogg </audio>
+		<audio state="attack"> audio/swordattack4.ogg </audio>
+		<audio state="attack"> audio/swordattack5.ogg </audio>
+		<audio state="attack"> audio/swordattack6.ogg </audio>
+		<audio state="attack"> audio/swordattack7.ogg </audio>
+		<audio state="attack"> audio/swordattack8.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.0.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.1.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.2.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.3.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.4.ogg </audio>
+		<audio state="transform_in"> audio/swordraw.ogg </audio>
+		<audio state="transform_out"> audio/swordraw.ogg </audio>
+		
+		<selectSound> audio/rama/yes.ogg </selectSound>
+		<selectSound> audio/rama/what.ogg </selectSound>
+		<selectSound> audio/rama/whathappened.ogg </selectSound>
+		<selectSound> audio/rama/whatcanido.ogg </selectSound>
+		<commandSound> audio/rama/ok.ogg </commandSound>
+		<commandSound> audio/rama/allright.ogg </commandSound>
+		<commandSound> audio/rama/forsita.ogg </commandSound>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/rama/icon.png </icon>
+		<iconSmall> unit/rama/icon_small.png </iconSmall>
+	</unit>
+	<unit id="506" category="infantry" name="Lakshmana">
+		<hitPoint> 2000 </hitPoint>
+
+		<unitPath> unit/lakshmana/base.unit </unitPath>
+
+		<armour> 5 </armour>
+		<attack> 100 </attack>
+		<siegeAttack> 50 </siegeAttack>
+		<attackDelay> 30 </attackDelay>
+		<weaponType> arrow </weaponType>
+		<range> 29 </range>
+		<accuracy> 0.8 </accuracy>
+		<areaDamageRadius> 1 </areaDamageRadius>
+		<speed> 0.12 </speed>
+		<rotAngle> 30 </rotAngle>
+		<los> 25 </los>
+		<isHeroic/>
+		<healDelay> 10 </healDelay> 
+		<healAmount> 1 </healAmount>
+		
+		<specialPower name="Singha-Vaan"> 
+			<weaponType> arrow </weaponType> 
+			<icon> ui/singhabaan.png </icon>
+			<state> attack </state>
+			<targetType> any </targetType>
+			<attack> 1000 </attack>
+			<siegeAttack> 500 </siegeAttack>
+			<areaDamageRadius> 3 </areaDamageRadius>
+			<hitFrameNumber> 28 </hitFrameNumber>
+			<rechargeTime> 100 </rechargeTime>
+			<neededLevel> 1 </neededLevel>
+		</specialPower>
+		<specialPower name="Hasti-Vaan"> 
+			<weaponType> arrow </weaponType> 
+			<icon> ui/hastibaan.png </icon>
+			<state> attack </state>
+			<targetType> any </targetType>
+			<attack> 2000 </attack>
+			<siegeAttack> 1000 </siegeAttack>
+			<areaDamageRadius> 5 </areaDamageRadius>
+			<hitFrameNumber> 28 </hitFrameNumber>
+			<rechargeTime> 300 </rechargeTime>
+			<neededLevel> 2 </neededLevel>
+		</specialPower>
+		<specialPower name="Parvat-Vaan"> 
+			<weaponType> replicate_arrow </weaponType> 
+			<icon> ui/parvatbaan.png </icon>
+			<state> attack </state>
+			<targetType> any </targetType>
+			<attack> 500 </attack>
+			<siegeAttack> 10 </siegeAttack>
+			<hitFrameNumber> 28 </hitFrameNumber>
+			<rechargeTime> 500 </rechargeTime>
+			<neededLevel> 3 </neededLevel>
+		</specialPower>
+		<specialPower name="Vaarun-Vaan"> 
+			<weaponType> water_arrow </weaponType> 
+			<icon> ui/vaarunbaan.png </icon>
+			<state> attack </state>
+			<targetType> any </targetType>
+			<attack> 3000 </attack>
+			<siegeAttack> 2000 </siegeAttack>
+			<areaDamageRadius> 5 </areaDamageRadius>
+			<hitFrameNumber> 28 </hitFrameNumber>
+			<rechargeTime> 1500 </rechargeTime>
+			<neededLevel> 3 </neededLevel>
+		</specialPower>
+		<specialPower name="Pavan-Vaan"> 
+			<weaponType> wind_arrow </weaponType> 
+			<icon> ui/pavanbaan.png </icon>
+			<state> attack </state>
+			<targetType> any </targetType>
+			<attack> 1200 </attack>
+			<siegeAttack> 3000 </siegeAttack>
+			<areaDamageRadius> 4 </areaDamageRadius>
+			<hitFrameNumber> 28 </hitFrameNumber>
+			<rechargeTime> 3000 </rechargeTime>
+			<neededLevel> 4 </neededLevel>
+		</specialPower>
+		<specialPower name="Brahmastra"> 
+			<weaponType> special_arrow_2 </weaponType> 
+			<icon> ui/brahmastra.png </icon>
+			<state> special2 </state>
+			<targetType> unit </targetType>
+			<attack> 200000 </attack>
+			<hitFrameNumber> 28 </hitFrameNumber>
+			<rechargeTime> 20000 </rechargeTime>
+			<neededLevel> 6 </neededLevel>
+		</specialPower>
+		
+		<population> 1 </population>
+		<buildTime> 1000 </buildTime>
+		<cost>  </cost>
+		
+		<obj state="general"> unit_src/lakshmana/general </obj>
+		<obj state="moving"> unit_src/lakshmana/moving </obj>
+		<obj state="attack"> unit_src/lakshmana/attack </obj>
+		<obj state="dead"> unit_src/lakshmana/dead </obj>
+		<obj state="special1"> <sameas unit="506" state="attack"/> </obj>
+		<obj state="special2"> <sameas unit="506" state="attack"/> </obj>
+		
+		<audio state="attack"> audio/arrow0.ogg </audio>
+		<audio state="attack"> audio/arrow1.ogg </audio>
+		<audio state="attack"> audio/arrow2.ogg </audio>
+		<audio state="attack"> audio/arrow3.ogg </audio>
+		<audio state="attack"> audio/arrow4.ogg </audio>
+		<audio state="attack"> audio/arrow5.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.0.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.1.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.2.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.3.ogg </audio>
+		<audio state="dead"> audio/male.normal.yell.4.ogg </audio>
+		<audio state="special1"> audio/arrow4.ogg </audio>
+		
+		<selectSound> audio/lakshmana/yes.ogg </selectSound>
+		<selectSound> audio/lakshmana/what.ogg </selectSound>
+		<selectSound> audio/lakshmana/whatcanido.ogg </selectSound>
+		<commandSound> audio/lakshmana/ok.ogg </commandSound>
+		<commandSound> audio/lakshmana/allright.ogg </commandSound>
+		<commandSound> audio/lakshmana/letsgo.ogg </commandSound>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/lakshmana/icon.png </icon>
+		<iconSmall> unit/lakshmana/icon_small.png </iconSmall>
+	</unit>
+	
+	<unit id="533" category="air" name="Kabandha" transformation="angel" hideInEditor="true">
+		<hitPoint> 10000 </hitPoint>
+
+		<unitPath> unit/kabandha/angel.unit </unitPath>
+
+		<armour> 10000 </armour>
+		<speed> 0.1 </speed>
+		<rotAngle> 10 </rotAngle>
+		<los> 25 </los>
+		<flyLevel> 1 </flyLevel>
+		<isHeroic/>
+		<population> 1 </population>
+		
+		<particleEngine> 
+			<texture> unit/kabandha/particle.png </texture>
+			<lifespan> 50 </lifespan>
+			<hAngle> <min>0</min> <max>360</max> </hAngle>
+			<vAngle> <min>0</min> <max>360</max> </vAngle>
+			<size> 0.05 </size>
+			<dSize> 0.0 </dSize>
+			<velocity> <min>0.03</min> <max>0.05</max> </velocity>
+			<weight> 0.1 </weight>
+			<rotation> 0 </rotation>
+			<color> <r>1</r> <g>1</g> <b>1</b> </color>
+			<density> 3 </density>
+		</particleEngine>
+		
+		<obj state="general"> unit_src/kabandha/angel_general </obj>
+		<obj state="transform_in"> unit_src/kabandha/angel_in </obj>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/kabandha/icon.png </icon>
+		<iconSmall> unit/kabandha/icon_small.png </iconSmall>
+	</unit>
+	<unit id="537" category="infantry" name="Villager">
+		<sibling> 538 </sibling>
+		<sibling> 539 </sibling>
+		<sibling> 541 </sibling>
+		
+		<hitPoint> 100 </hitPoint>
+
+		<unitPath> unit/villager_male/base.unit </unitPath>
+
+		<armour> 5 </armour>
+		<speed> 0.075 </speed>
+		<rotAngle> 20 </rotAngle>
+		<los> 20 </los>
+		<population> 1 </population>
+		
+		<obj state="general"> unit_src/villager_male/general </obj>
+		<obj state="moving"> unit_src/villager_male/moving </obj>
+		<obj state="dead"> unit_src/villager_male/dead </obj>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/villager_male/icon.png </icon>
+	</unit>
+	<unit id="538" category="infantry" name="Villager" hideInEditor="true">
+		<sibling> 537 </sibling>
+		<sibling> 539 </sibling>
+		<sibling> 541 </sibling>
+		
+		<hitPoint> 100 </hitPoint>
+
+		<unitPath> unit/villager_male_2/base.unit </unitPath>
+
+		<armour> 5 </armour>
+		<speed> 0.075 </speed>
+		<rotAngle> 20 </rotAngle>
+		<los> 20 </los>
+		<population> 1 </population>
+		
+		<obj state="general"> unit_src/villager_male_2/general </obj>
+		<obj state="moving"> unit_src/villager_male_2/moving </obj>
+		<obj state="dead"> unit_src/villager_male_2/dead </obj>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/villager_male/icon.png </icon>
+	</unit>
+	<unit id="539" category="infantry" name="Villager" hideInEditor="true">
+		<sibling> 537 </sibling>
+		<sibling> 538 </sibling>
+		<sibling> 541 </sibling>
+		
+		<hitPoint> 80 </hitPoint>
+
+		<unitPath> unit/villager_female_2/base.unit </unitPath>
+
+		<armour> 5 </armour>
+		<speed> 0.075 </speed>
+		<rotAngle> 20 </rotAngle>
+		<los> 20 </los>
+		<population> 1 </population>
+		
+		<obj state="general"> unit_src/villager_female_2/general </obj>
+		<obj state="moving"> unit_src/villager_female_2/moving </obj>
+		<obj state="dead"> unit_src/villager_female_2/dead </obj>
+		
+		<audio state="dead"> audio/female.normal.scream.0.ogg </audio>
+		<audio state="dead"> audio/female.normal.scream.1.ogg </audio>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/villager_male/icon.png </icon>
+	</unit>
+	<unit id="540" category="beast" name="Jatayu">
+		<hitPoint> 1 </hitPoint>
+
+		<unitPath> unit/jatayu/base.unit </unitPath>
+
+		<los> 20 </los>
+		<isHeroic/>
+		
+		<population> 1 </population>
+		
+		<obj state="general"> unit_src/jatayu/general </obj>
+		<obj state="dead"> unit_src/jatayu/dead </obj>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/jatayu/icon.png </icon>
+		<iconSmall> unit/jatayu/icon_small.png </iconSmall>
+	</unit>
+	<unit id="541" category="infantry" name="Villager" hideInEditor="true">
+		<sibling> 537 </sibling>
+		<sibling> 538 </sibling>
+		<sibling> 539 </sibling>
+	
+		<hitPoint> 60 </hitPoint>
+
+		<unitPath> unit/villager_female/base.unit </unitPath>
+
+		<armour> 5 </armour>
+		<speed> 0.075 </speed>
+		<rotAngle> 20 </rotAngle>
+		<los> 20 </los>
+		<population> 1 </population>
+		
+		<obj state="general"> unit_src/villager_female/general </obj>
+		<obj state="moving"> unit_src/villager_female/moving </obj>
+		<obj state="dead"> unit_src/villager_female/dead </obj>
+		
+		<audio state="dead"> audio/female.normal.scream.0.ogg </audio>
+		<audio state="dead"> audio/female.normal.scream.1.ogg </audio>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/villager_male/icon.png </icon>
+	</unit>
+	<unit id="542" category="beast" name="Kabandha" transformation="Base">
+		<hitPoint> 1500 </hitPoint>
+
+		<unitPath> unit/kabandha/base.unit </unitPath>
+
+		<armour> 2 </armour>
+		<attack> 300 </attack>
+		<siegeAttack> 800 </siegeAttack>
+		<attackDelay> 20 </attackDelay>
+		<weaponType> none </weaponType>
+		<range> 1 </range>
+		<accuracy> 0.5 </accuracy>
+		<areaDamageRadius> 1 </areaDamageRadius>
+		<speed> 0.15 </speed>
+		<rotAngle> 10 </rotAngle>
+		<los> 15 </los>
+		<isHeroic/>
+		<healDelay> 15 </healDelay> 
+		<healAmount> 1 </healAmount>
+		<trampleDamage> 5 </trampleDamage>		
+		<population> 1 </population>
+		
+		<transformation name="Die"> 
+			<unitType> 533 </unitType> 
+			<icon> ui/lavitate.png </icon>
+			<rechargeTime> 1 </rechargeTime>
+			<neededLevel> 0 </neededLevel>
+			<hide/>
+		</transformation>
+		<transformOnDeath/>
+		
+		<obj state="general"> unit_src/kabandha/general </obj>
+		<obj state="moving"> unit_src/kabandha/moving </obj>
+		<obj state="attack"> unit_src/kabandha/attack </obj>
+		<obj state="dead"> unit_src/kabandha/dead </obj>
+		
+		<occupiedPoint> <x> 0 </x> <y> 0 </y> </occupiedPoint>
+		
+		<icon> unit/kabandha/icon.png </icon>
+		<iconSmall> unit/kabandha/icon_small.png </iconSmall>
+	</unit>
+	
+	<unit id="600" category="building" name="Hut">
+		<hitPoint> 10000 </hitPoint>
+
+		<unitPath> unit/hut/base.unit </unitPath>
+
+		<armour> 3 </armour>
+		<los> 5 </los>
+		
+		<maxPopulationIncrease> 10 </maxPopulationIncrease>
+		<buildTime> 300 </buildTime>
+		<cost> <wood> 100 </wood> </cost>
+		
+		<obj state="general"> unit_src/hut/general </obj>
+		<obj state="building"> unit_src/hut/building </obj>
+		
+		<occupiedPoint> <x> 0</x> <y> 0</y> </occupiedPoint>
+		
+		<icon> unit/hut/icon.png </icon>
+		<iconSmall> unit/hut/icon_small.png </iconSmall>
+	</unit>
+	
+</unitList>

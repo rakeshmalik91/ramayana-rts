@@ -1,0 +1,55 @@
+<campaign>
+	<team>
+		<name>Vaanara</name>
+		<faction>vaanara</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+	</team>
+	<team>
+		<name>Sea Creature</name>
+		<faction>nature</faction>
+		<teamGroup>2</teamGroup>
+		<color>3</color>
+	</team>
+	<team>
+		<name>Sea Creature</name>
+		<faction>nature</faction>
+		<teamGroup>2</teamGroup>
+		<color>3</color>
+	</team>
+	<diplomacy team1="1" team2="2">enemy</diplomacy>
+	<diplomacy team1="1" team2="3">ally</diplomacy>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="CONST survive" unit="hanuman">Hanuman must survive.</line>
+		<line work="transform" unit="mainaka" val="0"/>
+		
+		<line work="show" unit="hanuman" time="1000" speech="tutorial/3.1.ogg"/>
+		<line work="zoom" val="15"/>
+		
+		<line work="OBJ damage" target="surasa" val="10">Defeat Surasa.</line>
+		<line work="change team" unit="surasa" team="3"/>
+		<line work="subtitle" unit="surasa" time="2000" speech="voice/cmpn-3.1.ogg">Surasa: Sorry for the inconvenience, Hanuman. I was assigned here by Gods to test you.</line>
+		<line work="subtitle" unit="surasa" time="2000">Surasa: You can take rest by waking Mainaka on the way.</line>
+		<line work="show" unit="hanuman" time="0"/>
+		
+		<line work="change team" unit="mainaka" team="3"/>
+		<line work="OBJ move to" unit="hanuman" target="mainaka">Take Hanuman to Mount Mainak.</line>
+		<line work="subtitle" unit="hanuman" time="300" speech="voice/cmpn-3.2.ogg">Hanuman: Excuse me.</line>
+		<line work="transform" unit="mainaka" val="0"/>
+		<line work="subtitle" unit="mainaka" time="300" speech="voice/cmpn-3.3.ogg">Mainaka: yes.</line>
+		<line work="subtitle" unit="hanuman" time="800" speech="voice/cmpn-3.4.ogg">Hanuman: May I take rest here please.</line>
+		<line work="subtitle" unit="mainaka" time="300" speech="voice/cmpn-3.5.ogg">Mainaka: Umm... Okey!</line>
+		<line work="show" unit="hanuman" time="0"/>
+		
+		<line work="wait" time="1000"/>
+		<line work="attack" unit="simhika" target="hanuman"/>
+		<line work="OBJ kill" target="simhika">Defeat Simhika.</line>
+		
+		<line work="change team" unit="flag" team="1"/>
+		<line work="show" unit="flag" time="2000"/>
+		<line work="OBJ move to" unit="hanuman" target="flag">Take Hanuman to Lanka.</line>
+		<line work="unlock" val="4"/>
+		<line work="show" unit="hanuman" time="40"/>
+	</story>
+</campaign>

@@ -1,0 +1,34 @@
+<campaign>
+	<team>
+		<name>Vaanara</name>
+		<faction>vaanara</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+		<resource>
+			<food>1000</food>
+			<wood>1000</wood>
+			<stone>1000</stone>
+			<metal>1000</metal>
+		</resource>
+	</team>
+	<team>
+		<name>Atikaay</name>
+		<faction>rakshasa</faction>
+		<teamGroup>2</teamGroup>
+		<color>2</color>
+		<resource>
+			<food>1000</food>
+			<wood>1000</wood>
+			<stone>1000</stone>
+			<metal>1000</metal>
+		</resource>
+		<hasAI/>
+	</team>
+	<diplomacy team1="1" team2="2">enemy</diplomacy>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="CONST survive" unit="lakshmana">Lakshmana must survive.</line>
+		<line work="OBJ kill" target="atikaay">Defeat Atikaay (Try all Lakshmana's special powers)</line>
+		<line work="unlock" val="12"/>
+	</story>
+</campaign>

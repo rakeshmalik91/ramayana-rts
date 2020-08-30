@@ -1,0 +1,167 @@
+<knowledge>
+	<buildableUnit>
+		<farm> 
+			<type> 605 </type>
+			<builderType> 550 </builderType>
+		</farm>
+		<lumbercamp> 
+			<type> 601 </type>
+			<builderType> 550 </builderType>
+		</lumbercamp>
+		<mine> 
+			<type> 602 </type>
+			<builderType> 550 </builderType>
+		</mine>
+		<barracks> 
+			<type> 607 </type>
+			<builderType> 550 </builderType>
+		</barracks>
+		<archery> 
+			<type> 618 </type>
+			<builderType> 550 </builderType>
+		</archery>
+		<beastiary> 
+			<type> 619 </type>
+			<builderType> 550 </builderType>
+		</beastiary>
+		<citadel> 
+			<type> 609 </type>
+			<builderType> 550 </builderType>
+		</citadel>
+		<outpost> 
+			<type> 608 </type>
+			<builderType> 550 </builderType>
+		</outpost>
+		<worker>
+			<type> 550 </type>
+			<builderType> 609 </builderType>
+			<builderType> 605 </builderType>
+		</worker>
+		<lightMelee>
+			<type> 551 </type>
+			<builderType> 607 </builderType>
+		</lightMelee>
+		<heavyMelee>
+			<type> 563 </type>
+			<builderType> 607 </builderType>
+		</heavyMelee>
+		<lightRanged>
+			<type> 552 </type>
+			<builderType> 618 </builderType>
+		</lightRanged>
+		<heavyRanged>
+			<type> 583 </type>
+			<builderType> 618 </builderType>
+		</heavyRanged>
+		<lightBeast>
+			<type> 553 </type>
+			<builderType> 619 </builderType>
+		</lightBeast>
+		<heavyBeast>
+			<type> 561 </type>
+			<builderType> 619 </builderType>
+		</heavyBeast>
+	</buildableUnit>
+
+	<targetStat timeStamp="120000">
+		<resource> <food> 4000 </food> <wood> 3000 </wood> <stone> 2000 </stone> <metal> 1000 </metal> </resource>
+		<nWorker> 20 </nWorker>
+		<gatherer> <food> 12 </food> <wood> 7 </wood> <stone> 1 </stone> <metal> 0 </metal> </gatherer>
+		<nScout> 3 </nScout>
+		<nBarracks> 1 </nBarracks>
+		<nLightMelee> 0 </nLightMelee>
+		<nHeavyMelee> 0 </nHeavyMelee>
+		<nLightRanged> 0 </nLightRanged>
+		<nHeavyRanged> 0 </nHeavyRanged>
+		<nLightBeast> 0 </nLightBeast>
+		<nHeavyBeast> 0 </nHeavyBeast>
+	</targetStat>
+	<targetStat timeStamp="300000">
+		<resource> <food> 4000 </food> <wood> 3000 </wood> <stone> 2000 </stone> <metal> 1000 </metal> </resource>
+		<nWorker> 20 </nWorker>
+		<gatherer> <food> 10 </food> <wood> 6 </wood> <stone> 4 </stone> <metal> 0 </metal> </gatherer>
+		<nScout> 3 </nScout>
+		<nBarracks> 1 </nBarracks>
+		<nArchery> 1 </nArchery>
+		<nLightMelee> 20 </nLightMelee>
+		<nHeavyMelee> 0 </nHeavyMelee>
+		<nLightRanged> 5 </nLightRanged>
+		<nHeavyRanged> 0 </nHeavyRanged>
+		<nLightBeast> 0 </nLightBeast>
+		<nHeavyBeast> 0 </nHeavyBeast>
+	</targetStat>
+	<targetStat timeStamp="420000">
+		<resource> <food> 4000 </food> <wood> 3000 </wood> <stone> 2000 </stone> <metal> 1000 </metal> </resource>
+		<nWorker> 60 </nWorker>
+		<gatherer> <food> 20 </food> <wood> 15 </wood> <stone> 15 </stone> <metal> 10 </metal> </gatherer>
+		<nScout> 3 </nScout>
+		<nBarracks> 1 </nBarracks>
+		<nArchery> 1 </nArchery>
+		<nLightMelee> 20 </nLightMelee>
+		<nHeavyMelee> 0 </nHeavyMelee>
+		<nLightRanged> 5 </nLightRanged>
+		<nHeavyRanged> 0 </nHeavyRanged>
+		<nLightBeast> 0 </nLightBeast>
+		<nHeavyBeast> 0 </nHeavyBeast>
+	</targetStat>
+	<targetStat timeStamp="600000">
+		<resource> <food> 40000 </food> <wood> 30000 </wood> <stone> 20000 </stone> <metal> 10000 </metal> </resource>
+		<nWorker> 60 </nWorker>
+		<gatherer> <food> 20 </food> <wood> 15 </wood> <stone> 15 </stone> <metal> 10 </metal> </gatherer>
+		<nScout> 3 </nScout>
+		<nBarracks> 1 </nBarracks>
+		<nArchery> 1 </nArchery>
+		<nBeastiary> 1 </nBeastiary>
+		<nLightMelee> 30 </nLightMelee>
+		<nHeavyMelee> 5 </nHeavyMelee>
+		<nLightRanged> 10 </nLightRanged>
+		<nHeavyRanged> 0 </nHeavyRanged>
+		<nLightBeast> 5 </nLightBeast>
+		<nHeavyBeast> 0 </nHeavyBeast>
+	</targetStat>
+	<targetStat timeStamp="900000">
+		<resource> <food> 40000 </food> <wood> 30000 </wood> <stone> 20000 </stone> <metal> 10000 </metal> </resource>
+		<nWorker> 60 </nWorker>
+		<gatherer> <food> 25 </food> <wood> 25 </wood> <stone> 25 </stone> <metal> 25 </metal> </gatherer>
+		<nScout> 3 </nScout>
+		<nBarracks> 1 </nBarracks>
+		<nArchery> 1 </nArchery>
+		<nBeastiary> 1 </nBeastiary>
+		<nLightMelee> 30 </nLightMelee>
+		<nHeavyMelee> 5 </nHeavyMelee>
+		<nLightRanged> 10 </nLightRanged>
+		<nHeavyRanged> 0 </nHeavyRanged>
+		<nLightBeast> 5 </nLightBeast>
+		<nHeavyBeast> 0 </nHeavyBeast>
+	</targetStat>
+	<targetStat timeStamp="1800000">
+		<resource> <food> 40000 </food> <wood> 30000 </wood> <stone> 20000 </stone> <metal> 10000 </metal> </resource>
+		<nWorker> 60 </nWorker>
+		<gatherer> <food> 25 </food> <wood> 25 </wood> <stone> 25 </stone> <metal> 25 </metal> </gatherer>
+		<nScout> 3 </nScout>
+		<nBarracks> 2 </nBarracks>
+		<nArchery> 2 </nArchery>
+		<nBeastiary> 1 </nBeastiary>
+		<nLightMelee> 50 </nLightMelee>
+		<nHeavyMelee> 20 </nHeavyMelee>
+		<nLightRanged> 50 </nLightRanged>
+		<nHeavyRanged> 0 </nHeavyRanged>
+		<nLightBeast> 20 </nLightBeast>
+		<nHeavyBeast> 0 </nHeavyBeast>
+	</targetStat>
+	<targetStat timeStamp="9999999999">
+		<resource> <food> 9999999999 </food> <wood> 9999999999 </wood> <stone> 9999999999 </stone> <metal> 9999999999 </metal>	</resource>
+		<nWorker> 100 </nWorker>
+		<gatherer> <food> 25 </food> <wood> 25 </wood> <stone> 25 </stone> <metal> 25 </metal> </gatherer>
+		<nScout> 5 </nScout>
+		<nBarracks> 3 </nBarracks>
+		<nArchery> 3 </nArchery>
+		<nBeastiary> 3 </nBeastiary>
+		<nLightMelee> 75 </nLightMelee>
+		<nHeavyMelee> 25 </nHeavyMelee>
+		<nLightRanged> 75 </nLightRanged>
+		<nHeavyRanged> 25 </nHeavyRanged>
+		<nLightBeast> 40 </nLightBeast>
+		<nHeavyBeast> 10 </nHeavyBeast>
+	</targetStat>
+</knowledge>

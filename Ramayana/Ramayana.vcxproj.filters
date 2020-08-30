@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{07a0a492-66c6-4220-88f4-5c9e18685257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ai">
+      <UniqueIdentifier>{23fb4f82-d26f-4e70-be4b-ead3226ddf4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\unit">
+      <UniqueIdentifier>{6acf74ae-e7a5-47c8-a230-b8c001e03b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{f3fe0605-8fa5-4ad1-a98d-5f01427a20d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\interface">
+      <UniqueIdentifier>{f9157a95-4edf-4f5b-8e42-645ed502d17c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\network">
+      <UniqueIdentifier>{3a21c8b1-9815-40de-a36a-d3a091e3c00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world">
+      <UniqueIdentifier>{8526e636-9d35-40cf-a1de-bc56c1f0d4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gltools">
+      <UniqueIdentifier>{11ed2877-a616-4e42-b398-934a629f6fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gltools">
+      <UniqueIdentifier>{64e61405-55bd-4340-9fec-b3e347eb6b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\data">
+      <UniqueIdentifier>{cdd1ec9d-a36c-425b-8ec9-d65bf60659d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\kb">
+      <UniqueIdentifier>{5744be49-c6e2-4249-9e11-55e79de11f41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\installer_package">
+      <UniqueIdentifier>{c2d19d4b-b018-45ac-a009-497555be4c67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ai.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="team.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="water.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="campaign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skirmish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\algorithm.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\array.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\graphics.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\math.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\random.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\surface.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\thread.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\stdafx.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\texture.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\object.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\particle.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\string.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\io.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\exception.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\glprint.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\glkey.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\glpremitive.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\gltransform.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\glsupported.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\shader.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\framebuffer.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="gltools\gleffects.h">
+      <Filter>Header Files\gltools</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="steamStatsAndAchievements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_audio.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game_command.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game_render.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="skirmish.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="campaign.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="knowledgebase.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="game_unitselection.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_query.cpp">
+      <Filter>Source Files\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.cpp">
+      <Filter>Source Files\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="ai.cpp">
+      <Filter>Source Files\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="projectileweapon.cpp">
+      <Filter>Source Files\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="team.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unittype.cpp">
+      <Filter>Source Files\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="game_query.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game_specialeffects.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enums.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multiplayer.cpp">
+      <Filter>Source Files\network</Filter>
+    </ClCompile>
+    <ClCompile Include="interface.cpp">
+      <Filter>Source Files\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="sky.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="water.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="world.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>Source Files\interface</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\collada.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\exception.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\framebuffer.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\frustum.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\graphics.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\line.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\lock.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\math.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\particle.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\pathfinding.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\point.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\projectile.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\random.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\safearray.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\shader.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\string.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\surface.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\vector.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\wavefront.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\glprint.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\glpremitive.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\gleffects.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\glsupported.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\texture2d.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\texture3d.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\io.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\texturesprite2d.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="gltools\gltransform.cpp">
+      <Filter>Source Files\gltools</Filter>
+    </ClCompile>
+    <ClCompile Include="ramayana.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="steamStatsAndAchievements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Ramayana.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Ramayana_small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\alphamask.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\bloom.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\blur.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\brightpass.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\color.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\dof.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\fxaa.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\object.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\terrain.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\water.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="shaders\add.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="installer_test.nsi">
+      <Filter>Resource Files\installer_package</Filter>
+    </None>
+    <None Include="installer_demo.nsi">
+      <Filter>Resource Files\installer_package</Filter>
+    </None>
+    <None Include="installer.nsi">
+      <Filter>Resource Files\installer_package</Filter>
+    </None>
+    <None Include="create-demo-deb.sh">
+      <Filter>Resource Files\installer_package</Filter>
+    </None>
+    <None Include="create-demo-rpm.sh">
+      <Filter>Resource Files\installer_package</Filter>
+    </None>
+    <None Include="create-demo-tar.sh">
+      <Filter>Resource Files\installer_package</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Ramayana.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Steam_appid.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="data\campaign.xml">
+      <Filter>Resource Files\data</Filter>
+    </Xml>
+    <Xml Include="data\campaign_deploy.xml">
+      <Filter>Resource Files\data</Filter>
+    </Xml>
+    <Xml Include="data\settings.xml">
+      <Filter>Resource Files\data</Filter>
+    </Xml>
+    <Xml Include="data\settings_deploy.xml">
+      <Filter>Resource Files\data</Filter>
+    </Xml>
+    <Xml Include="data\unit.xml">
+      <Filter>Resource Files\data</Filter>
+    </Xml>
+    <Xml Include="data\unit_deploy_demo.xml">
+      <Filter>Resource Files\data</Filter>
+    </Xml>
+    <Xml Include="kb\rakshasa.xml">
+      <Filter>Resource Files\kb</Filter>
+    </Xml>
+    <Xml Include="kb\vaanara.xml">
+      <Filter>Resource Files\kb</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

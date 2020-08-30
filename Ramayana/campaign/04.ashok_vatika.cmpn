@@ -1,0 +1,78 @@
+<campaign>
+	<team>
+		<name>Hanuman</name>
+		<faction>vaanara</faction>
+		<teamGroup>1</teamGroup>
+		<color>1</color>
+	</team>
+	<team>
+		<name>Rakshasa</name>
+		<faction>rakshasa</faction>
+		<teamGroup>2</teamGroup>
+		<color>2</color>
+	</team>
+	<team>
+		<name>Sita</name>
+		<faction>human</faction>
+		<teamGroup>1</teamGroup>
+		<color>3</color>
+	</team>
+	<diplomacy team1="1" team2="2">enemy</diplomacy>
+	<diplomacy team1="1" team2="3">ally</diplomacy>
+	<playerTeam>1</playerTeam>
+	<story>
+		<line work="reveal all"/>
+		<line work="CONST survive" unit="hanuman" team="2">Hanuman must Survive</line>
+		<line work="CONST upspotted" unit="hanuman" team="2">Hanuman must remain unspotted by guards.</line>
+		
+		<line work="show" unit="hanuman" time="1000"/>
+		<line work="show" unit="flag1" time="1000"/>
+		<line work="show" unit="hanuman" time="0"/>
+		<line work="OBJ move to" unit="hanuman" target="flag1">Take Hanuman to the flagged area through forest to avoid guards.</line>
+		<line work="remove" unit="flag1"/>
+		
+		<line work="show" unit="hanuman" time="1000"/>
+		<line work="show" unit="sita" time="0"/>
+		<line work="show" unit="sita" time="2000"/>
+		<line work="subtitle" unit="hanuman" time="2000" speech="voice/cmpn-4.1.ogg">Hanuman: There are too many guards. I should avoid them somehow.</line>
+		<line work="OBJ move to" unit="hanuman" target="sita">Meet Sita.</line>
+		<line work="transform_tobase" unit="hanuman"/>
+		<line work="move" unit="sita" target="hanuman"/>
+		<line work="move" unit="hanuman" target="sita"/>
+		<line work="rotate" val="60"/>
+		<line work="zoom" val="3"/>
+		<line work="subtitle" unit="sita" time="1000" speech="voice/cmpn-4.2.ogg">Sita: Who are you?</line>
+		<line work="subtitle" unit="hanuman" time="2000" speech="voice/cmpn-4.3.ogg">Hanuman: I am Hanuman. Lord Rama has sent me.</line>
+		<line work="subtitle" unit="hanuman" time="2000">Hanuman: He has sent this ring as a gift for you.</line>
+		<line work="rotate" val="0"/>
+		<line work="zoom" val="15"/>
+		<line work="set diplomacy" team="1" team2="2">neutral</line>
+		<line work="CONST upspotted END" unit="hanuman" team="2"/>
+		
+		<line work="show" unit="hanuman" time="0"/>
+		<line work="show" unit="palace" time="2000"/>
+		<line work="show" unit="hanuman" time="0"/>
+		<line work="subtitle" unit="hanuman" time="2000" speech="voice/cmpn-4.4.ogg">Hanuman: Good bye. I am going to deliver a message to Raavana.</line>
+		<line work="OBJ move to" unit="hanuman" target="palace">Go to Lanka Palace.</line>
+		<line work="move" unit="hanuman" target="palace"/>
+		<line work="transform_tobase" unit="hanuman"/>
+		<line work="subtitle" unit="palace" time="1500" speech="voice/cmpn-4.5.ogg">Ravana: O monkey who are you?</line>
+		<line work="subtitle" unit="palace" time="3000">Ravana: Haven't you heard about me? Don't you fear for your life?</line>
+		<line work="subtitle" unit="palace" time="5000" speech="voice/cmpn-4.6.ogg">Hanuman: Ravana, I am the messenger of that supreme power with the help 
+of whom illusion creates the universe...</line>
+		<line work="subtitle" unit="palace" time="5000">Hanuman: The power which helps Brahma, Vishnu and Maheshwara to perform their duties of 
+creation, nurture and destruction...</line>
+		<line work="subtitle" unit="palace" time="3000">Hanuman: I am the messenger of Sri Rama whose wife you have abducted deceitfully.</line>
+		<line work="subtitle" unit="palace" time="1000" speech="voice/cmpn-4.7.ogg">Ravana: Silence!!!</line>
+		<line work="subtitle" unit="palace" time="1500">Ravana: Set fire on tail of that monkey...</line>
+		<line work="move" unit="hanuman" target="palace_piller"/>
+		<line work="transform_tobase" unit="hanuman"/>
+		<line work="transform" unit="hanuman" val="0"/>
+		<line work="wait" time="1000"/>
+		<line work="set diplomacy" team="1" team2="2">enemy</line>
+		<line work="reveal all"/>
+		<line work="OBJ move to" unit="hanuman" target="flag2">Extinguish fire in the ocean.</line>
+		<line work="unlock" val="5"/>
+		
+	</story>
+</campaign>
