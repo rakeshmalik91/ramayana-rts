@@ -1,0 +1,73 @@
+# Blender MTL File: 'banana.blend'
+# Material Count: 7
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd travelersaaPalm_trunck.jpg
+
+newmtl TravelersLeaf
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.473726 0.552157 0.373334
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd TravelersLeaf.jpg
+
+newmtl Travelers_stem2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.345098 0.414118 0.338823
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Travelers_stem2.jpg
+
+newmtl travelersBase
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.354510 0.360784 0.335686
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd travelersBase.jpg
+map_Disp travelersBase.jpg
+
+newmtl travelersBase_travelersaaPalm_t.000
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.354510 0.360784 0.335686
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd travelersaaPalm_trunck.jpg
+map_Disp travelersBase.jpg
+
+newmtl travelers_test_smalle
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.134902 0.169412 0.084706
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd travelers_test_smaller_clean.png
+
+newmtl travelersaaPalm_trunc
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.238431 0.203922 0.172549
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd travelersaaPalm_trunck.jpg

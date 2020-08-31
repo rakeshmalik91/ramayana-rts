@@ -3,17 +3,17 @@ ipch
 *.ipch
 
 Ramayana/audio
-Ramayana/build
-Ramayana/cursor
+#Ramayana/build
+#Ramayana/cursor
 Ramayana/distributable
 Ramayana/log
-Ramayana/map
-Ramayana/save
-Ramayana/special
-Ramayana/special_src
-Ramayana/ui
-Ramayana/unit
-Ramayana/unit_src
+#Ramayana/map
+#Ramayana/save
+#Ramayana/special
+#Ramayana/special_src
+#Ramayana/ui
+#Ramayana/unit
+#Ramayana/unit_src
 Ramayana/video
 
 .DS_Store

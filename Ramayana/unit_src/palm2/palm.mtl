@@ -1,0 +1,32 @@
+# Blender MTL File: 'palm.blend'
+# Material Count: 3
+
+newmtl t_TrachycarpusFor.000
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.784915 0.739660
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd t_TrachycarpusFortunei_02.jpg
+
+newmtl t_TrachycarpusFortune
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.495686 0.442353 0.320000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 0.990000
+illum 2
+map_Kd t_TrachycarpusFortunei_01.png
+
+newmtl c_Palm_01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.564706 0.599216 0.580392
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd c_Palm_01.png

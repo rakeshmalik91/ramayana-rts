@@ -1,0 +1,22 @@
+# Blender MTL File: 'sita_evidance.blend'
+# Material Count: 2
+
+newmtl cloth
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.359199 0.000000
+Ks 0.326368 0.326368 0.326368
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd cloth.png
+map_Bump cloth_bump.jpg
+
+newmtl ornament
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.940849 0.000000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2

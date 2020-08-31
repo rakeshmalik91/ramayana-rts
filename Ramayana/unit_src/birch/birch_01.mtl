@@ -1,0 +1,22 @@
+# Blender MTL File: 'birch_01.blend'
+# Material Count: 2
+
+newmtl bark
+Ns 186.893180
+Ka 0.000000 0.000000 0.000000
+Kd 0.717635 0.712005 0.669802
+Ks 0.554054 0.554054 0.554054
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd bark.jpg
+
+newmtl branches
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.794934 0.994105 0.510320
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd branches.png

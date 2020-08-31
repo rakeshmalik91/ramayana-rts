@@ -1,0 +1,22 @@
+# Blender MTL File: 'jatayu.blend'
+# Material Count: 2
+
+newmtl eg2_body
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.778667 0.778667
+Ks 0.200000 0.200000 0.200000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd jatayu.jpg
+map_Bump jatayu_nor.jpg
+
+newmtl eg2_eye
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.003916 0.003891 0.003789
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2

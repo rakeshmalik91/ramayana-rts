@@ -1,0 +1,85 @@
+# Blender MTL File: 'lumbercamp.blend'
+# Material Count: 8
+
+newmtl color
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd wood.png
+map_Bump wood_nor.png
+
+newmtl hay
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.777807 0.800000 0.651431
+Ks 0.119771 0.119771 0.119771
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd hay2.jpg
+map_Bump hay2_nor.jpg
+
+newmtl log
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.571229 0.457379
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd bark.jpg
+
+newmtl log_NONE
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.571229 0.457379
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd bark.jpg
+
+newmtl log_wood_spiral.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.571229 0.457379
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd wood spiral.jpg
+
+newmtl metal
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl wood
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd wood.png
+map_Bump wood_nor.png
+
+newmtl wood_hay2.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd hay2.jpg
+map_Bump hay2_nor.jpg

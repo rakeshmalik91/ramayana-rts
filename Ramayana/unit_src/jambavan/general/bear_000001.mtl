@@ -1,0 +1,56 @@
+# Blender MTL File: 'bear.blend'
+# Material Count: 5
+
+newmtl FrontColorNoCulling
+Ns 35.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd texture0.jpg
+map_Bump jambavan_nor.jpg
+
+newmtl armor
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd armor.png
+map_Bump no_nor.jpg
+
+newmtl cloth
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd cotton.jpg
+map_Bump cotton_nor.jpg
+
+newmtl color_cloth
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd cotton.jpg
+
+newmtl material0
+Ns 35.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd texture0.jpg
+map_Bump jambavan_nor.jpg

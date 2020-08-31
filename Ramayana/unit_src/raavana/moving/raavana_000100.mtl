@@ -1,0 +1,74 @@
+# Blender MTL File: 'raavana.blend'
+# Material Count: 7
+
+newmtl chariot
+Ns 96.078431
+Ka 0.200000 0.200000 0.200000
+Kd 0.800000 0.705230 0.421215
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd plates.jpg
+map_Bump chariot_nor.jpg
+
+newmtl color
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd skin.jpg
+
+newmtl color_chariot
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd plates.jpg
+
+newmtl horn
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.033622 0.020072 0.008962
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd hair.png
+
+newmtl material3
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd skin.jpg
+
+newmtl material5
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd hair.png
+
+newmtl metal
+Ns 96.078431
+Ka 0.200000 0.200000 0.200000
+Kd 1.000000 0.839245 0.000000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd plates.jpg
+map_Bump chariot_nor.jpg

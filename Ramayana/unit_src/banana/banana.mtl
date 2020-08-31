@@ -1,0 +1,52 @@
+# Blender MTL File: 'banana.blend'
+# Material Count: 5
+
+newmtl TravelersLeaf
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.473726 0.552157 0.373334
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Travelers_stem2.jpg
+
+newmtl TravelersLeaf_TravelersLeaf.jpg.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.473726 0.552157 0.373334
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd TravelersLeaf.jpg
+
+newmtl base
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd TravelersLeaf.jpg
+
+newmtl travelers_test_smalle
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.134902 0.169412 0.084706
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Travelers_stem2.jpg
+
+newmtl travelers_test_smalle_travelers_test_sm.000
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.134902 0.169412 0.084706
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd travelers_test_smaller_clean.png

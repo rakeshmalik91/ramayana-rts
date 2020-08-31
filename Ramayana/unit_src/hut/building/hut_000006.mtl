@@ -1,0 +1,22 @@
+# Blender MTL File: 'hut.blend'
+# Material Count: 2
+
+newmtl hay
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.456209 0.474050 0.302630
+Ks 0.238487 0.219133 0.084236
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd hut.jpg
+
+newmtl hay_hut.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.456209 0.474050 0.302630
+Ks 0.238487 0.219133 0.084236
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd hut.jpg

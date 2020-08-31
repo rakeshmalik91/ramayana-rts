@@ -1,0 +1,21 @@
+# Blender MTL File: 'boardpin.blend'
+# Material Count: 2
+
+newmtl metal
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.181267 0.181267 0.181267
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl plastic
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.492141 0.492141 0.492141
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd orange.jpg

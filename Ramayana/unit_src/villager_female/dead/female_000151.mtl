@@ -1,0 +1,33 @@
+# Blender MTL File: 'female.blend'
+# Material Count: 3
+
+newmtl cloth
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.200000 0.200000 0.200000
+Ni 1.000000
+d 0.950000
+illum 2
+map_Kd cotton.jpg
+map_Bump cotton_nor.jpg
+
+newmtl hair
+Ns 749.999996
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.033102 0.033102 0.033102
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd repack.png
+
+newmtl skin
+Ns 13.725490
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.300000 0.300000 0.300000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd repack.png

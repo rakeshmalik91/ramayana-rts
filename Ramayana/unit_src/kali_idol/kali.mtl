@@ -1,0 +1,12 @@
+# Blender MTL File: 'kali.blend'
+# Material Count: 1
+
+newmtl stone
+Ns 13.725490
+Ka 0.000000 0.000000 0.000000
+Kd 0.640529 0.640529 0.640529
+Ks 1.000000 0.700000 0.700000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd stone.jpg

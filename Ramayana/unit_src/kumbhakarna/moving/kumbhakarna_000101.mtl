@@ -1,0 +1,43 @@
+# Blender MTL File: 'kumbhakarna.blend'
+# Material Count: 4
+
+newmtl color_cotton
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd skin.jpg
+
+newmtl cotton
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd skin.jpg
+
+newmtl skin
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd skin.jpg
+
+newmtl weapon
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.273901 0.247667 0.218452
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd mace.jpg
+map_Bump ornament_nor.jpg

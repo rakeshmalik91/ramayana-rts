@@ -1,0 +1,46 @@
+# Blender MTL File: 'sita.blend'
+# Material Count: 4
+
+newmtl cloth
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.585002 0.130980 0.108625
+Ks 0.196556 0.196556 0.196556
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd cotton.jpg
+map_Bump cotton_nor.jpg
+
+newmtl hair
+Ns 749.999996
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.009931 0.009931 0.009931
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd repack.png
+map_Bump repack_nor.jpg
+
+newmtl lips
+Ns 749.999996
+Ka 0.000000 0.000000 0.000000
+Kd 0.735655 0.417235 0.254627
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd repack.png
+map_Bump repack_nor.jpg
+
+newmtl skin
+Ns 13.725490
+Ka 0.000000 0.000000 0.000000
+Kd 0.882000 0.864000 0.900000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd repack.png
+map_Bump repack_nor.jpg

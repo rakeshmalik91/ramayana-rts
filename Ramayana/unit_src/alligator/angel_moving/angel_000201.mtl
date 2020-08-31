@@ -1,0 +1,23 @@
+# Blender MTL File: 'angel.blend'
+# Material Count: 2
+
+newmtl skin
+Ns 13.725490
+Ka 0.700000 0.700000 0.700000
+Kd 0.800000 0.800000 0.800000
+Ks 0.200000 0.200000 0.200000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd repack.png
+
+newmtl wing
+Ns 13.725490
+Ka 0.500000 0.500000 0.500000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd wing.png
+map_Bump wing_nor.jpg

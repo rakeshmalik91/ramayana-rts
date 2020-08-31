@@ -1,0 +1,62 @@
+<map>
+	<terrain>
+		<waterWaveAmplitude>0</waterWaveAmplitude>
+		<waterColor>
+			<r>1</r>
+			<g>1</g>
+			<b>1</b>
+		</waterColor>
+	</terrain>
+	<unit id="rama">
+		<type>504</type>
+		<team>1</team>
+		<x>17</x>
+		<y>36</y>
+		<angle>270</angle>
+		<level>10</level>
+	</unit>
+	<unit id="lakshmana">
+		<type>506</type>
+		<team>1</team>
+		<x>18</x>
+		<y>33</y>
+		<angle>270</angle>
+		<level>10</level>
+	</unit>
+	<unit>
+		<type>553</type>
+		<team>2</team>
+		<x>56</x>
+		<y>67</y>
+		<angle>270</angle>
+	</unit>
+	<unit>
+		<type>551</type>
+		<team>2</team>
+		<x>58</x>
+		<y>73</y>
+		<angle>0</angle>
+	</unit>
+	<unit>
+		<type>551</type>
+		<team>2</team>
+		<x>59</x>
+		<y>72</y>
+		<angle>0</angle>
+	</unit>
+	<unit>
+		<type>551</type>
+		<team>2</team>
+		<x>58</x>
+		<y>68</y>
+		<angle>0</angle>
+	</unit>
+	<unit>
+		<type>551</type>
+		<team>2</team>
+		<x>59</x>
+		<y>67</y>
+		<angle>0</angle>
+	</unit>
+</map>
+

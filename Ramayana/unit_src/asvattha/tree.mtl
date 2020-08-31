@@ -1,0 +1,24 @@
+# Blender MTL File: 'tree.blend'
+# Material Count: 2
+
+newmtl Material
+Ns 27.450980
+Ka 0.000000 0.000000 0.000000
+Kd 0.700000 0.700000 0.700000
+Ks 0.125000 0.109049 0.082094
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Tree Bark Tiled.png
+map_Bump Tree Bark Nor2.png
+
+newmtl Material.001
+Ns 27.450980
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Tree Leaves.png
+map_Bump Tree Leaves Nor.png

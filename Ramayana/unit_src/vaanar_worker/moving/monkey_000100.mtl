@@ -1,0 +1,32 @@
+# Blender MTL File: 'monkey.blend'
+# Material Count: 3
+
+newmtl body
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.722193 0.701658
+Ks 0.343138 0.343138 0.343138
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd fur.jpg
+
+newmtl color
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd fur.jpg
+
+newmtl face
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.566240 0.340090
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd monkey.jpg

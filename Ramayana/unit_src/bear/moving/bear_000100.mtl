@@ -1,0 +1,24 @@
+# Blender MTL File: 'bear.blend'
+# Material Count: 2
+
+newmtl FrontColorNoCulling
+Ns 35.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd texture0.jpg
+map_Bump texture0_nor.jpg
+
+newmtl material0
+Ns 35.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd texture0.jpg
+map_Bump texture0_nor.jpg

@@ -1,0 +1,23 @@
+# Blender MTL File: 'neem.blend'
+# Material Count: 2
+
+newmtl Bark_mossy
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd BarkMossy-tiled-n.jpg
+
+newmtl neem_leaf
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd neem.png
+map_Ks neem.png

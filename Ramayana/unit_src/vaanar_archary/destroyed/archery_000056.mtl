@@ -1,0 +1,44 @@
+# Blender MTL File: 'archery.blend'
+# Material Count: 4
+
+newmtl black.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd wood.jpg
+
+newmtl stone.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.400000 0.400000 0.400000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd stone.jpg
+map_Bump stone_nor.png
+
+newmtl stone.color.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.400000 0.400000 0.400000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd stone.jpg
+map_Bump stone_nor.png
+
+newmtl white.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.764133 0.540553
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd wood.jpg

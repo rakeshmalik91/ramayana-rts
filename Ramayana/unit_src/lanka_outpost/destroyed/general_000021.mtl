@@ -1,0 +1,46 @@
+# Blender MTL File: 'general.blend'
+# Material Count: 4
+
+newmtl wall1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.688434 0.000000
+Ks 0.500000 0.429289 0.217157
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex1.jpg
+map_Bump tex1_bump.jpg
+
+newmtl wall1_tex2.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.688434 0.000000
+Ks 0.500000 0.429289 0.217157
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex2.jpg
+map_Bump tex1_bump.jpg
+
+newmtl wall2
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.650023 0.000000
+Ks 0.500000 0.480547 0.241113
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex2.jpg
+map_Bump tex2_bump.jpg
+
+newmtl wall2.color
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.480547 0.241113
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tex2.jpg
+map_Bump tex2_bump.jpg
