@@ -14,7 +14,7 @@ Ramayana/log
 #Ramayana/ui
 #Ramayana/unit
 #Ramayana/unit_src
-Ramayana/video
+#Ramayana/video
 
 .DS_Store
 .DS_Store?
@@ -29,3 +29,13 @@ Ramayana/lib/steamwork-sdk/glmgr
 Ramayana/lib/steamwork-sdk/steamworksexample
 Ramayana/lib/steamwork-sdk/tools
 Ramayana/lib/*.exe
+
+Ramayana/video/cutscene/720p
+Ramayana/video/loading_game/720p
+Ramayana/video/loading_map/720p
+Ramayana/video/menu/720p
+
+Ramayana/video/cutscene/1080p
+Ramayana/video/loading_game/1080p
+Ramayana/video/loading_map/1080p
+Ramayana/video/menu/1080p
