@@ -6,11 +6,8 @@ Ramayana/audio
 Ramayana/build
 Ramayana/cursor
 Ramayana/distributable
-Ramayana/lib
-Ramayana/linux64
 Ramayana/log
 Ramayana/map
-Ramayana/osx32
 Ramayana/save
 Ramayana/special
 Ramayana/special_src
@@ -18,8 +15,9 @@ Ramayana/ui
 Ramayana/unit
 Ramayana/unit_src
 Ramayana/video
-Ramayana/win32
-Ramayana/win64
 
 .DS_Store
 .DS_Store?
+
+Ramayana/lib
+!Ramayana/lib/**/*.lib
