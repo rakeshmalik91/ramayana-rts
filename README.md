@@ -1,7 +1,8 @@
 # Ramayana - RTS Game #
 
-Dependencies:
+## Dependencies ##
  - Visual Studio 2012
+ - VC Redist 2012
  - Steamwork SDK
  - OpenVR
  - GLEW 1.9.0
@@ -13,5 +14,4 @@ Dependencies:
  - SDL 2 Net 2.0.0
  - Dirent 1.20.1
  - OpenCV 2.4.9
- - VC Redist 2012
  
