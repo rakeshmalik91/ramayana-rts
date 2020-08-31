@@ -2,7 +2,7 @@ ipch
 *.sdf
 *.ipch
 
-Ramayana/audio
+#Ramayana/audio
 #Ramayana/build
 #Ramayana/cursor
 Ramayana/distributable
