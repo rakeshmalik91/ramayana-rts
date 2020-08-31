@@ -19,5 +19,13 @@ Ramayana/video
 .DS_Store
 .DS_Store?
 
-Ramayana/lib
-!Ramayana/lib/**/*.lib
+Ramayana/lib/glew-1.9.0/doc
+Ramayana/lib/openvr-master/samples
+Ramayana/lib/SDL-1.2.15/docs
+Ramayana/lib/SDL-1.2.15/*.html
+Ramayana/lib/SDL-1.2.15/*.txt
+Ramayana/lib/steamwork-sdk/client
+Ramayana/lib/steamwork-sdk/glmgr
+Ramayana/lib/steamwork-sdk/steamworksexample
+Ramayana/lib/steamwork-sdk/tools
+Ramayana/lib/*.exe

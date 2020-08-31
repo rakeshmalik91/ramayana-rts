@@ -1,0 +1,12 @@
+prefix=
+exec_prefix=
+libdir=${pcfiledir}
+includedir=/home/rakesh/apps/ffmpeg-0.5.1/src
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 52.20.1
+Requires: libavutil = 49.15.0
+Conflicts:
+Libs: ${libdir}/libavcodec.a   -lz -lm   -lasound -ldl -ldl -lasound -lasound
+Cflags: -I${includedir}
