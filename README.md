@@ -28,4 +28,6 @@ For any requests please use the following thread
 https://www.reddit.com/user/ghostknife033
 
 ## Screenshots ##
-![Screenshot 1] (https://cdn.cloudflare.steamstatic.com/steam/apps/371790/ss_72b1c64bf4e234f47d86bdb8a8ad10804cd074f6.1920x1080.jpg)
+<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/371790/ss_72b1c64bf4e234f47d86bdb8a8ad10804cd074f6.1920x1080.jpg">
+<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/371790/ss_fc4c9094a7bec6c02c10898cb5305c44caed2dcd.600x338.jpg">
+<img src="https://cdn.cloudflare.steamstatic.com/steam/apps/371790/ss_b9ed974a0ad373a01f51329a6408db2f98f515f6.600x338.jpg">
