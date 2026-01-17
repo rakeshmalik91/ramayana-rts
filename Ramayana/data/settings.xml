@@ -1,10 +1,10 @@
 <settings>
 	<graphics>
-		<fullscreen>false</fullscreen>
-		<screenWidth>1112</screenWidth>
-		<screenHeight>659</screenHeight>
+		<fullscreen>true</fullscreen>
+		<screenWidth>1920</screenWidth>
+		<screenHeight>1080</screenHeight>
 		<gameMode>false</gameMode>
-		<gameModeString>1600x1200:32@60</gameModeString>
+		<gameModeString>1920x1080:32@60</gameModeString>
 		<reflectionOn>true</reflectionOn>
 		<shadowOn>true</shadowOn>
 		<antialiasingOn>false</antialiasingOn>
